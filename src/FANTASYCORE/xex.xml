@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<xex>
+  <exportnames/>
+  <gameregion>
+     <all/>
+  </gameregion>
+  <titleid id="0x4D5307DB"/>
+  <rating esrb="UNRATED"
+		cero="CERO_15"
+		pegi="UNRATED"
+		pegi-fi="UNRATED"
+		pegi-pt="UNRATED"
+		pegi-bbfc="UNRATED"
+		usk="UNRATED"
+		oflc-au="UNRATED"
+		oflc-nz="UNRATED"/>
+  <mslogo/>
+</xex>

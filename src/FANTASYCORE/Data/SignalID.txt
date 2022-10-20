@@ -1,0 +1,532 @@
+// This file make by AniTool
+
+// Name ID
+//	Initial
+//	Background color
+//	Foreground color
+//	ParameterNum
+//	Parameter Type[ParameterNum]
+
+#include "SignalType.h"
+#include "ATParamType.h"	// make by AniTool 
+
+"Non"		SIGNAL_TYPE_NON
+	""
+	0	0	0
+	0	0	0
+	0
+
+"Hit"		SIGNAL_TYPE_HIT
+	"H"
+	255	255	0
+	0	0	0
+	19
+	PARAM_TYPE_INT			"Length"
+	PARAM_TYPE_INT			"Attack Point"
+	PARAM_TYPE_ANI_TYPE		"Hit Ani Type"
+	PARAM_TYPE_INDEX		"Hit Ani Index"
+	PARAM_TYPE_INT			"Push Y"
+	PARAM_TYPE_INT			"Push Z"
+	PARAM_TYPE_PARTICLE		"Particle"
+	PARAM_TYPE_FLOAT		"Particle X"
+	PARAM_TYPE_FLOAT		"Particle Y"
+	PARAM_TYPE_FLOAT		"Particle Z"
+	PARAM_TYPE_INT			"Do not modify"
+	PARAM_TYPE_INT			"Add Length"
+	PARAM_TYPE_INT			"Catch"
+	PARAM_TYPE_INT			"Change Gravity"
+	PARAM_TYPE_INT			"Change Gravity Frame"
+	PARAM_TYPE_INT			"Ground Resist"
+	PARAM_TYPE_INT			"Guard Break Prob"
+	PARAM_TYPE_INT			"Stun Prob"
+	PARAM_TYPE_INT			"Stun Delay"
+//	PARAM_TYPE_SOUND		"Sound"	// 꽉찼음.. 더이상 추가 하지 마시오..
+
+
+"Particle"	SIGNAL_TYPE_PARTICLE
+	"P"
+	255	0	0
+	0	0	0
+	8
+	PARAM_TYPE_PARTICLE		"ID"
+	PARAM_TYPE_FLOAT		"Position X"
+	PARAM_TYPE_FLOAT		"Position Y"
+	PARAM_TYPE_FLOAT		"Position Z"
+	PARAM_TYPE_INT			"Iterate"
+	PARAM_TYPE_FLOAT		"Scale"
+	PARAM_TYPE_INT			"Particle Count"
+	PARAM_TYPE_INT			"Loop"
+
+"Sound"		SIGNAL_TYPE_SOUND
+	"S"
+	0	0	255
+	0	0	0
+	7
+	PARAM_TYPE_INT		"Category"
+	PARAM_TYPE_INT		"Armor"
+	PARAM_TYPE_INT		"Weapon"
+	PARAM_TYPE_INT		"WeaponUseType"
+	PARAM_TYPE_INT		"Weight"
+	PARAM_TYPE_INT		"AttackType"
+	PARAM_TYPE_INT		"Cue"
+
+"Jump"		SIGNAL_TYPE_JUMP
+	"J"
+	255	0	255
+	0	0	0
+	4
+	PARAM_TYPE_INT		"Gravity"
+	PARAM_TYPE_INT		"Velocity"
+	PARAM_TYPE_INT		"Enable Gravity"
+	PARAM_TYPE_INT		"Enable Velocity"
+
+"Input"		SIGNAL_TYPE_INPUT
+	"I"
+	0	255	255
+	0	0	0
+	9
+	PARAM_TYPE_KEY_LENGTH	"Length"
+	PARAM_TYPE_INPUT	"Input"
+	PARAM_TYPE_ANI_TYPE	"Ani. Type"
+	PARAM_TYPE_INDEX	"Ani. Index"
+	PARAM_TYPE_INT		"Direct Index"		// Ani Type 으로 지정하지 않고.. 여기서 바로 Ani Index를 넣어도 된다..
+	PARAM_TYPE_INT		"KeyPress Frame"	// 입력을 눌렀을때 나가지 않고.. 일정 프레임 누르고 있으면 나가야 할때 여기다 프레임 입력해준다..
+	PARAM_TYPE_INT		"Clear Input"
+	PARAM_TYPE_INDEX	"Inpue Level"
+	PARAM_TYPE_INT		"Need Orb"
+
+"FX"		SIGNAL_TYPE_FX
+	"F"
+	128	128	128
+	0	0	0
+	12
+	PARAM_TYPE_FX			"ID"
+	PARAM_TYPE_FLOAT		"Position X"
+	PARAM_TYPE_FLOAT		"Position Y"
+	PARAM_TYPE_FLOAT		"Position Z"
+	PARAM_TYPE_INT			"Iterate"
+	PARAM_TYPE_INT			"Only Targeting Hero Show"
+	PARAM_TYPE_FLOAT		"Rotate X"
+	PARAM_TYPE_FLOAT		"Rotate Y"
+	PARAM_TYPE_FLOAT		"Rotate Z"
+	PARAM_TYPE_INT			"Random Rot X"
+	PARAM_TYPE_INT			"Random Rot Y"
+	PARAM_TYPE_INT			"Random Rot Z"
+
+
+"Linked Particle"	SIGNAL_TYPE_LINKED_PARTICLE
+	"L"
+	255	128	128
+	0	0	0
+	8
+	PARAM_TYPE_BONE			"Bone Index"
+	PARAM_TYPE_PARTICLE		"ID"	
+	PARAM_TYPE_FLOAT		"Position X"
+	PARAM_TYPE_FLOAT		"Position Y"
+	PARAM_TYPE_FLOAT		"Position Z"
+	PARAM_TYPE_FLOAT		"Scale"
+	PARAM_TYPE_INT			"Iterate"
+	PARAM_TYPE_INT			"Loop"
+
+"Goto if press count"	SIGNAL_TYPE_GOTO_PRESS_COUNT
+	"G"
+	255	255	128
+	0	0	0
+	7
+	PARAM_TYPE_INDEX		"Go to Frame"
+	PARAM_TYPE_INPUT		"Key"
+	PARAM_TYPE_INT			"Key Press Count"
+	PARAM_TYPE_INT			"Add Key Press Count"
+	PARAM_TYPE_INT			"Direction"
+	PARAM_TYPE_INT			"Max Loop"
+	PARAM_TYPE_INDEX		"Level"
+
+
+"Calc Y Axis In Game"	SIGNAL_TYPE_CALC_YAXIS_INGAME
+	"Y"
+	0	255	0
+	0	0	0
+	1
+	PARAM_TYPE_INT			"Calc Y Axis In Game"
+	
+"Show/Hide Weapon"	SIGNAL_TYPE_SHOW_WEAPON
+	"W"
+	85	138	170
+	0	0	0
+	2
+	PARAM_TYPE_INDEX		"Show Weapon Group"
+	PARAM_TYPE_INT			"Show/Hide"
+
+"Camera Shock"	SIGNAL_TYPE_CAMERA_SHOCK
+	"C"
+	170	85	138	
+	0	0	0
+	3
+	PARAM_TYPE_INT			"ShockX"
+	PARAM_TYPE_INT			"ShockY"
+	PARAM_TYPE_INT			"Duration"
+
+"Shoot Projectile"	SIGNAL_TYPE_SHOOT_PROJECTILE
+	"P"
+	25	85	155	
+	0	0	0
+	7
+	PARAM_TYPE_INDEX		"Shoot Weapon Group"
+	PARAM_TYPE_FLOAT		"Shoot Position X"
+	PARAM_TYPE_FLOAT		"Shoot Position Y"
+	PARAM_TYPE_FLOAT		"Shoot Position Z"
+	PARAM_TYPE_INT			"Attack Point"
+	PARAM_TYPE_PARTICLE		"Particle"
+	PARAM_TYPE_INT			"TYPE"
+
+"Show Trail"		SIGNAL_TYPE_SHOW_TRAIL
+	"T"
+	76	234	190	
+	0	0	0
+	10
+	PARAM_TYPE_INT			"Length"
+	PARAM_TYPE_INT			"Color R"
+	PARAM_TYPE_INT			"Color G"
+	PARAM_TYPE_INT			"Color B"
+	PARAM_TYPE_INT			"LifeTime"
+	PARAM_TYPE_INT			"Do not modify"
+	PARAM_TYPE_INT			"Add Length"
+	PARAM_TYPE_INT			"Kind of Trail"
+	PARAM_TYPE_BONE			"Weapon Bone"
+	PARAM_TYPE_INDEX		"Weapon Group"
+
+"Goto if press"		SIGNAL_TYPE_GOTO_PRESS_CHECK
+	"G"
+	128	0	128
+	0	0	0
+	7
+	PARAM_TYPE_INT			"Length"
+	PARAM_TYPE_INDEX		"Go to Frame"
+	PARAM_TYPE_INPUT		"Key"
+	PARAM_TYPE_INT			"Press Check"
+	PARAM_TYPE_INT			"Land Check"
+	PARAM_TYPE_INT			"MoveZ"
+	PARAM_TYPE_INT			"Require Level"
+
+"Orb Input"		SIGNAL_TYPE_ORB_INPUT
+	"I"
+	255	0	0
+	0	0	0
+	8	
+	PARAM_TYPE_KEY_LENGTH	"Length"
+	PARAM_TYPE_INPUT	"Input"
+	PARAM_TYPE_ANI_TYPE	"Ani. Type"
+	PARAM_TYPE_INDEX	"Ani. Index"
+	PARAM_TYPE_INT		"Direct Index"		// Ani Type 으로 지정하지 않고.. 여기서 바로 Ani Index를 넣어도 된다..
+	PARAM_TYPE_INT		"KeyPress Frame"	// 입력을 눌렀을때 나가지 않고.. 일정 프레임 누르고 있으면 나가야 할때 여기다 프레임 입력해준다..
+	PARAM_TYPE_INT		"Clear Input"
+	PARAM_TYPE_INDEX	"Inpue Level"
+
+
+"Linked to Cross Particle"	SIGNAL_TYPE_LINKED_TO_CROSS_PARTICLE
+	"L"
+	128	128	255
+	0	0	0
+	7
+	PARAM_TYPE_PARTICLE		"ID"	
+	PARAM_TYPE_FLOAT		"Position X"
+	PARAM_TYPE_FLOAT		"Position Y"
+	PARAM_TYPE_FLOAT		"Position Z"
+	PARAM_TYPE_FLOAT		"Scale"
+	PARAM_TYPE_INT			"Iterate"
+	PARAM_TYPE_INT			"Loop"
+
+"Hit_Temp"		SIGNAL_TYPE_HIT_TEMP
+	"H"
+	255	0	255
+	0	0	0
+	29
+	PARAM_TYPE_INT			"Length"
+	PARAM_TYPE_INT			"Attack Point"
+	PARAM_TYPE_ANI_TYPE		"Hit Ani Type"
+	PARAM_TYPE_INDEX		"Hit Ani Index"
+	PARAM_TYPE_INT			"Push Y"
+	PARAM_TYPE_INT			"Push Z"
+	PARAM_TYPE_PARTICLE		"Particle"
+	PARAM_TYPE_FLOAT		"Particle X"
+	PARAM_TYPE_FLOAT		"Particle Y"
+	PARAM_TYPE_FLOAT		"Particle Z"
+	PARAM_TYPE_INT			"Min Distance"
+	PARAM_TYPE_INT			"Max Distance"
+	PARAM_TYPE_INT			"Min Height"
+	PARAM_TYPE_INT			"Max Height"
+	PARAM_TYPE_INT			"Center Angle"
+	PARAM_TYPE_INT			"Angle"
+	PARAM_TYPE_INT			"Catch"
+	PARAM_TYPE_INT			"Change Gravity"
+	PARAM_TYPE_INT			"Change Gravity Frame"
+	PARAM_TYPE_INT			"Ground Resist"
+	PARAM_TYPE_SOUND_ACTION		"Sound Action"
+	PARAM_TYPE_SOUND_MATERIAL	"Weapon Material"
+	PARAM_TYPE_INT			"Sound Delay"
+	PARAM_TYPE_INT			"Guard Break Prop"
+	PARAM_TYPE_INT			"Stun Prop"
+	PARAM_TYPE_INT			"Stun Delay"
+	PARAM_TYPE_INT			"Prop BreakType"
+	PARAM_TYPE_INT			"Add Critical"
+	PARAM_TYPE_FX			"Fx"
+
+
+"Physics"		SIGNAL_TYPE_CHECK_PHYSICS
+	"P"
+	175	49	255
+	0	0	0
+	6
+	PARAM_TYPE_INT			"Distance"
+	PARAM_TYPE_INT			"Angle"
+	PARAM_TYPE_INT			"Power"
+	PARAM_TYPE_INT			"Type"	// 0 이면 프랍 뿌시기용 1 이면 돌 굴리용
+	PARAM_TYPE_PARTICLE		"Particle"
+	PARAM_TYPE_FLOAT		"Particle Y"
+
+"True Orb Spark"		SIGNAL_TYPE_TRUE_ORB_SPARK
+	"O"
+	223	128	56
+	0	0	0
+	1
+	PARAM_TYPE_INT			"Kind of Orb Spark"
+
+"Job Change"		SIGNAL_TYPE_JOB_CHANGE
+	"J"
+	185 15 100
+	0	0	0
+	1
+	PARAM_TYPE_INT			"Index"
+
+"Unlink Catch"		SIGNAL_TYPE_UNLINK_CATCH
+	"U"
+	22 77 180
+	0	0	0
+	5
+	PARAM_TYPE_INT			"Reserved"
+	PARAM_TYPE_INT			"Force X"
+	PARAM_TYPE_INT			"Force Y"
+	PARAM_TYPE_INT			"Force Z"
+	PARAM_TYPE_INT			"Right/Left Hand?"
+
+"God"	SIGNAL_TYPE_GOD
+	"G"
+	202 200 113
+	0	0	0
+	1
+	PARAM_TYPE_INT			"God On/Off"
+
+"Throw Weapon"		SIGNAL_TYPE_THROW_WEAPON
+	"T"
+	214 127 95
+	0	0	0
+	8
+	PARAM_TYPE_INT			"Length"
+	PARAM_TYPE_INT			"Speed(Percent)"
+	PARAM_TYPE_BONE			"Start Bone Index"
+	PARAM_TYPE_BONE			"End Bone Index"
+	PARAM_TYPE_INT			"Reserved"
+	PARAM_TYPE_INT			"Throw Length"
+	PARAM_TYPE_INT			"Bending(0-5)"
+	PARAM_TYPE_INT			"Bend Position(Percent)"
+
+"Custom Message"	SIGNAL_TYPE_CUSTOM_MESSAGE
+	"Z"
+	1 	1	1
+	255	255	255
+	3
+	PARAM_TYPE_INT			"Param1"
+	PARAM_TYPE_INT			"Param2"
+	PARAM_TYPE_INT			"Param3"
+
+"Morph Weapon"	SIGNAL_TYPE_MORPH_WEAPON
+	"M"
+	255 	128		51
+	0	0	0
+	4
+	PARAM_TYPE_INDEX		"Morph Weapon Group"
+	PARAM_TYPE_INT			"Length"
+	PARAM_TYPE_INT			"Start Frame( 0 ~ 100 )"
+	PARAM_TYPE_INT			"End Frame( 0 ~ 100 )"
+
+"Return Weapon"		SIGNAL_TYPE_RETURN_WEAPON
+	"R"
+	214 127 95
+	0	0	0
+	1
+	PARAM_TYPE_INT			"Speed(Percent)"
+
+"FX Local"		SIGNAL_TYPE_FX_LOCAL
+	"F"
+	128	32	32
+	0	0	0
+	5
+	PARAM_TYPE_FX			"ID"	
+	PARAM_TYPE_FLOAT		"Position X"
+	PARAM_TYPE_FLOAT		"Position Y"
+	PARAM_TYPE_FLOAT		"Position Z"
+	PARAM_TYPE_INT			"Iterate"
+
+
+"Push"		SIGNAL_TYPE_HIT_PUSH
+	"P"
+	255	0	255
+	0	0	0
+	22
+	PARAM_TYPE_INT			"Length"
+	PARAM_TYPE_ANI_TYPE		"Hit Ani Type"
+	PARAM_TYPE_INDEX		"Hit Ani Index"
+	PARAM_TYPE_INT			"Push Y"
+	PARAM_TYPE_INT			"Push Z"
+	PARAM_TYPE_PARTICLE		"Particle"
+	PARAM_TYPE_FLOAT		"Particle X"
+	PARAM_TYPE_FLOAT		"Particle Y"
+	PARAM_TYPE_FLOAT		"Particle Z"
+	PARAM_TYPE_INT			"Min Distance"
+	PARAM_TYPE_INT			"Max Distance"
+	PARAM_TYPE_INT			"Min Height"
+	PARAM_TYPE_INT			"Max Height"
+	PARAM_TYPE_INT			"Center Angle"
+	PARAM_TYPE_INT			"Angle"
+	PARAM_TYPE_INT			"Catch"
+	PARAM_TYPE_INT			"Change Gravity"
+	PARAM_TYPE_INT			"Change Gravity Frame"
+	PARAM_TYPE_INT			"Ground Resist"
+	PARAM_TYPE_INT			"Guard Break Prob"
+	PARAM_TYPE_INT			"Stun Prob"
+	PARAM_TYPE_INT			"Stun Delay"
+
+"Linked FX"	SIGNAL_TYPE_LINKED_FX
+	"F"
+	32	32	128
+	0	0	0
+	15
+	PARAM_TYPE_BONE			"Bone Index"
+	PARAM_TYPE_FX		"ID"	
+	PARAM_TYPE_FLOAT		"Position X"
+	PARAM_TYPE_FLOAT		"Position Y"
+	PARAM_TYPE_FLOAT		"Position Z"
+	PARAM_TYPE_FLOAT		"Rotate X"
+	PARAM_TYPE_FLOAT		"Rotate Y"
+	PARAM_TYPE_FLOAT		"Rotate Z"
+	PARAM_TYPE_FLOAT		"Scale"
+	PARAM_TYPE_INT			"Iterate"
+	PARAM_TYPE_INT			"Loop"
+	PARAM_TYPE_INT			"Only Targeting Hero Show"
+	PARAM_TYPE_INT			"Random Rot X"
+	PARAM_TYPE_INT			"Random Rot Y"
+	PARAM_TYPE_INT			"Random Rot Z"
+	
+
+"Sound yeah"	SIGNAL_TYPE_SOUND_YEAH
+	"S"
+	255	0	0
+	0	0	0
+	6
+	PARAM_TYPE_INT		"CueID 1"
+	PARAM_TYPE_INT		"CueID 2"
+	PARAM_TYPE_INT		"CueID 3"
+	PARAM_TYPE_INT		"CueID 4"
+	PARAM_TYPE_INT		"CueID 5"
+	PARAM_TYPE_INT		"Type"
+
+"Terrain Particle"	SIGNAL_TYPE_TERRAIN_PARTICLE
+	"T"
+	255	0	0
+	0	0	0
+	8
+	PARAM_TYPE_TERRAIN_PARTICLE	"ID"
+	PARAM_TYPE_FLOAT		"Position X"
+	PARAM_TYPE_FLOAT		"Position Y"
+	PARAM_TYPE_FLOAT		"Position Z"
+	PARAM_TYPE_INT			"Iterate"
+	PARAM_TYPE_FLOAT		"Scale"
+	PARAM_TYPE_INT			"Particle Count"
+	PARAM_TYPE_INT			"Loop"
+
+
+"Remove Linked FX"		SIGNAL_TYPE_REMOVE_LINKED_FX
+	"R"
+	255	255	255
+	0	0	0
+	0
+
+"AI Control Check"		SIGNAL_TYPE_AI_CONTROL_CHECK
+	"A"
+	255	255	128
+	255	0	0
+	9
+	PARAM_TYPE_INT		"Control Index"
+	PARAM_TYPE_ANI_ATTR	"Ani. Attr"
+	PARAM_TYPE_ANI_TYPE	"Ani. Type"
+	PARAM_TYPE_INDEX	"Ani. Index"
+	PARAM_TYPE_INT		"Ani. Frame"
+	PARAM_TYPE_INT		"Ani. Blend Frame"
+	PARAM_TYPE_INT		"Release Control Index"
+	PARAM_TYPE_INT		"Lock Target"
+	PARAM_TYPE_INT		"Lock Target Angle"
+
+
+"AI Control Release"		SIGNAL_TYPE_AI_CONTROL_RELEASE
+	"A"
+	255	255	128
+	255	0	0
+	0
+
+
+"AI Control Goto"		SIGNAL_TYPE_AI_CONTROL_GOTO
+	"A"
+	255	255	128
+	0	255	0
+	3
+	PARAM_TYPE_INT			"Length"
+	PARAM_TYPE_INT			"Control Index"
+	PARAM_TYPE_INDEX		"Go to Frame"
+
+"Summon"		SIGNAL_TYPE_SUMMON
+	"S"
+	65	125	216
+	255	0	0
+	2
+	PARAM_TYPE_INT			"Start Index"
+	PARAM_TYPE_INT			"End Index"
+
+"AI Control Callback"		SIGNAL_TYPE_AI_CONTROL_CALLBACK
+	"A"
+	110	0	200
+	0	255	255
+	1
+	PARAM_TYPE_INT			"Control Index"
+
+"Show Dash Trail"		SIGNAL_TYPE_DASH_TRAIL
+	"D"
+	234	76	190	
+	0	0	0
+	2
+	PARAM_TYPE_INT			"Length"
+	PARAM_TYPE_INT			"LifeTime"
+
+"Charge On/Off"		SIGNAL_TYPE_CHARGE
+	"C"
+	127	96	96	
+	0	0	0
+	1
+	PARAM_TYPE_INT			"Charge On/Off"
+
+"Rotate"		SIGNAL_TYPE_ROTATE
+	"R"
+	127	96	96	
+	0	0	0
+	1
+	PARAM_TYPE_INT			"Rotate"
+
+
+"Special Camera"		SIGNAL_TYPE_SPECIAL_CAMERA
+	"C"
+	127	96	96	
+	0	0	0
+	2
+	PARAM_TYPE_INDEX		"Camera ID"
+	PARAM_TYPE_INT			"Duration"
+	
+

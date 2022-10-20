@@ -1,0 +1,1661 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{1aa112d8-d7a1-4986-883f-38dbe80baa4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Unit">
+      <UniqueIdentifier>{2dfabcb3-730f-41f6-b4bb-ee5469fc4e6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Unit\Adjutant">
+      <UniqueIdentifier>{0a401add-ecd4-4e7e-b06e-6b0a9ec79b79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Hero">
+      <UniqueIdentifier>{f8c1bed2-83d3-4a6b-a929-0dd0abc3a591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Projectile">
+      <UniqueIdentifier>{e4d8d42d-ab22-4d5b-9244-e82866e60996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Sequence Event">
+      <UniqueIdentifier>{aef8b70c-eb00-4fc0-9d51-2648b5eeea90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Status">
+      <UniqueIdentifier>{1c1ef386-d526-48d4-88c7-16f01db84b00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{4a8a2e57-3c83-4d8f-9cdd-e6ca48089f6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{1c4c0477-d23d-43aa-bb21-e163d7e877b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SOXLoader">
+      <UniqueIdentifier>{3faa1234-a492-45f0-b691-c67126dbe3ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitScript">
+      <UniqueIdentifier>{ce40f8c8-5a9a-496b-9965-8500168a78b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{3a9d20de-8080-4cf0-adaf-b2c62a990331}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Menu">
+      <UniqueIdentifier>{fc724210-6384-46a1-985e-01ccceec5e5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{da18189a-7bde-485c-8430-bb52c283c018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Sound">
+      <UniqueIdentifier>{96ebf769-d207-4e2c-8fdf-7ee42d524459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Camera">
+      <UniqueIdentifier>{bb908683-38a8-49dc-8d31-ce6b38f551ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Troop">
+      <UniqueIdentifier>{8ea4ccbb-34ca-4d94-8fc1-bb4a351ba7a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI Object">
+      <UniqueIdentifier>{8d58f251-5cf8-40d9-992f-9fd1886dbb32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI Object\Element">
+      <UniqueIdentifier>{11d39435-6584-4cce-96aa-2d2ca86802fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI Object\Element\Trigger Class">
+      <UniqueIdentifier>{6aed77ff-bbbe-4a93-981a-db3c44aa5df3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI Object\Troop">
+      <UniqueIdentifier>{15c7b827-5bf9-430a-abe6-88150b247a56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI Object\Parameter Variable">
+      <UniqueIdentifier>{77e05a59-2a3a-4a42-b815-addde46ec93f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI Object\Hardcoding AI Funcition">
+      <UniqueIdentifier>{cc75b8f3-7165-4ca3-b942-0486e17b0ded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI Object\Hardcoding AI Funcition\Base">
+      <UniqueIdentifier>{128fc80c-aaf1-4df3-96ed-c474eec5f45c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI Object\Hardcoding AI Funcition\Additional Function">
+      <UniqueIdentifier>{6a9c3e00-61fb-41b2-bec5-7da3f9349ab3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI Object\Search">
+      <UniqueIdentifier>{1428a658-14b5-4f46-a034-476d581883d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State">
+      <UniqueIdentifier>{5056c260-59ff-43fc-837b-12fdeeda3345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{471e8693-caba-4e50-a186-f1396cd6aabf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Debug">
+      <UniqueIdentifier>{f71fbfbd-8256-4382-95e1-b6d63d6e7380}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Game Start">
+      <UniqueIdentifier>{b812c184-1467-4439-b328-fc4b620ee5ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Pause">
+      <UniqueIdentifier>{0b04688a-21a2-4f3a-981c-f7e2305b520d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Mission Start">
+      <UniqueIdentifier>{c611e5bd-ce41-4bb0-a92c-ceb2fd544489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Library">
+      <UniqueIdentifier>{a1f96465-c642-414f-a92f-9d61f24b2fcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Mission End">
+      <UniqueIdentifier>{3d900a51-c539-481d-9984-c46ca5446aae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Public">
+      <UniqueIdentifier>{c3d5fa52-6657-40b5-8870-b7a1bdfba7f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Trigger">
+      <UniqueIdentifier>{d0df0c82-e2bf-4bed-b092-7b2bcffdd8b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Trigger\Common">
+      <UniqueIdentifier>{d6881feb-19fe-43e7-b55f-354713a9a601}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Trigger\Definitions">
+      <UniqueIdentifier>{9388f7a0-ddfa-41c4-bc43-5a52cc816f31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BsUi">
+      <UniqueIdentifier>{5b74eac8-dae8-476a-9dae-779e5b5cc94d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BsUi\Core">
+      <UniqueIdentifier>{d7e6c688-b9af-44b8-94b8-4206759f7ba1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BsUi\Custom">
+      <UniqueIdentifier>{087f62c6-cbd9-483a-afc8-b824efc77fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BsUi\Control">
+      <UniqueIdentifier>{e4953558-f2a1-4081-b2a8-9c5bb8cab013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object_Physics">
+      <UniqueIdentifier>{2ff421c3-be65-4e2b-891f-c6115d8ec8c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Navigation">
+      <UniqueIdentifier>{de3f2d1e-4724-4d0f-a07f-b677ba900f92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{60691467-28cb-4d7b-8520-b4029976453e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FX">
+      <UniqueIdentifier>{fc10fb8b-39aa-4208-a4ae-58d3a3f0a6a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ability">
+      <UniqueIdentifier>{03674131-ce45-457f-8467-ce54329245b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RealtimeMovie">
+      <UniqueIdentifier>{ca7edc19-a1b4-42ae-97fe-ab4dfbba78f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GenericCamera">
+      <UniqueIdentifier>{d0fd4c2b-9403-48d9-a1ff-0e9bf4f3a13a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DX_Util">
+      <UniqueIdentifier>{318cc588-1df5-4451-9714-00f8652bb6f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LiveAndSubmission">
+      <UniqueIdentifier>{f1e1d0ab-feed-46fc-a386-97b5255eb554}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FcAniObject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="FcBaseObject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="FcCameraObject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="FcDropWeapon.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="FcItem.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="SpiritObject_temp.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="FcArcherUnitObject.cpp">
+      <Filter>Objects\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="FcCatapultObject.cpp">
+      <Filter>Objects\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="FcEffectLight.cpp">
+      <Filter>Objects\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="FcFlyUnitObject.cpp">
+      <Filter>Objects\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="FcGameObject.cpp">
+      <Filter>Objects\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="FcHorseObject.cpp">
+      <Filter>Objects\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="FcMoveTowerObject.cpp">
+      <Filter>Objects\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="FcUnit9SObject.cpp">
+      <Filter>Objects\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="FcUnitJobChange.cpp">
+      <Filter>Objects\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="FcUnitObject.cpp">
+      <Filter>Objects\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAdjutant99King.cpp">
+      <Filter>Objects\Unit\Adjutant</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAdjutantDarkElf.cpp">
+      <Filter>Objects\Unit\Adjutant</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAdjutantDwykfarrio.cpp">
+      <Filter>Objects\Unit\Adjutant</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAdjutantGoblinWizard.cpp">
+      <Filter>Objects\Unit\Adjutant</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAdjutantKingFrog.cpp">
+      <Filter>Objects\Unit\Adjutant</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAdjutantMylarrvaryss.cpp">
+      <Filter>Objects\Unit\Adjutant</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAdjutantObject.cpp">
+      <Filter>Objects\Unit\Adjutant</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAdjutantSyumerrt.cpp">
+      <Filter>Objects\Unit\Adjutant</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAdjutantTeaTea.cpp">
+      <Filter>Objects\Unit\Adjutant</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAdjutantYesperratt.cpp">
+      <Filter>Objects\Unit\Adjutant</Filter>
+    </ClCompile>
+    <ClCompile Include="Aspharr.cpp">
+      <Filter>Objects\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="Dwingvatt.cpp">
+      <Filter>Objects\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="FcHeroObject.cpp">
+      <Filter>Objects\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="Inphy.cpp">
+      <Filter>Objects\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="Klarrann.cpp">
+      <Filter>Objects\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="Myifee.cpp">
+      <Filter>Objects\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="Tyurru.cpp">
+      <Filter>Objects\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="Vigkvagk.cpp">
+      <Filter>Objects\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="FcProjectile.cpp">
+      <Filter>Objects\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="FcProjectileArrow.cpp">
+      <Filter>Objects\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="FcProjectileBlackHall.cpp">
+      <Filter>Objects\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="FcProjectileDirectArrow.cpp">
+      <Filter>Objects\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="FcProjectileMagicFx.cpp">
+      <Filter>Objects\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="FcProjectilePhysicsThrow.cpp">
+      <Filter>Objects\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="FcProjectileRoots.cpp">
+      <Filter>Objects\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="FcProjectileStone.cpp">
+      <Filter>Objects\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="FcProjectileThrowStone.cpp">
+      <Filter>Objects\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="FcProjectileTimeBomb.cpp">
+      <Filter>Objects\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="FcProjectileWaterBomb.cpp">
+      <Filter>Objects\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="FcCatapultSeqEvent.cpp">
+      <Filter>Objects\Sequence Event</Filter>
+    </ClCompile>
+    <ClCompile Include="FcHeroSeqEvent.cpp">
+      <Filter>Objects\Sequence Event</Filter>
+    </ClCompile>
+    <ClCompile Include="FcMoveTowerSeqEvent.cpp">
+      <Filter>Objects\Sequence Event</Filter>
+    </ClCompile>
+    <ClCompile Include="FcStatusObject.cpp">
+      <Filter>Objects\Status</Filter>
+    </ClCompile>
+    <ClCompile Include="BSFileManager.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="FcProp.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="FcPropManager.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="FcWorld.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputPad.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputPCPad.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="FcSOXFile.cpp">
+      <Filter>SOXLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="FcSOXLoader.cpp">
+      <Filter>SOXLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="ASData.cpp">
+      <Filter>UnitScript</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\DebugUtil.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="FcCorrelation.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="FcEventSequencer.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\FcGetCaptionUTF16.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="FcUtil.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="FcVelocityCtrl.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\LocalLanguage.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Parser.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\PerfCheck.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="ShortPathFinder.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\TextTable.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Token.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\TokenFile.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\toputil.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\tpGrammer.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\CWavebankStream.cpp">
+      <Filter>Util\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\FcSoundManager.cpp">
+      <Filter>Util\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\FcWaveStream.cpp">
+      <Filter>Util\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\X3DSoundCalculate.cpp">
+      <Filter>Util\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\XActSound.cpp">
+      <Filter>Util\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="XMPBGMPlayer.cpp">
+      <Filter>Util\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\FcEventCamera.cpp">
+      <Filter>Util\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="FcGuardianManager.cpp">
+      <Filter>Troop</Filter>
+    </ClCompile>
+    <ClCompile Include="FcTroopManager.cpp">
+      <Filter>Troop</Filter>
+    </ClCompile>
+    <ClCompile Include="FcTroopManagerCaculateFakeMode.cpp">
+      <Filter>Troop</Filter>
+    </ClCompile>
+    <ClCompile Include="FcTroopObject.cpp">
+      <Filter>Troop</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAIFunc.cpp">
+      <Filter>AI Object</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAIGlobalParam.cpp">
+      <Filter>AI Object</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAIGlobalVariableMng.cpp">
+      <Filter>AI Object</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAIObject.cpp">
+      <Filter>AI Object</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAIElement.cpp">
+      <Filter>AI Object\Element</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAITriggerAction.cpp">
+      <Filter>AI Object\Element\Trigger Class</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAITriggerActionProp.cpp">
+      <Filter>AI Object\Element\Trigger Class</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAITriggerActionTroop.cpp">
+      <Filter>AI Object\Element\Trigger Class</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAITriggerBase.cpp">
+      <Filter>AI Object\Element\Trigger Class</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAITriggerCon.cpp">
+      <Filter>AI Object\Element\Trigger Class</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAITriggerConProp.cpp">
+      <Filter>AI Object\Element\Trigger Class</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAITriggerConTroop.cpp">
+      <Filter>AI Object\Element\Trigger Class</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAITriggerFactory.cpp">
+      <Filter>AI Object\Element\Trigger Class</Filter>
+    </ClCompile>
+    <ClCompile Include="FcTroopAIObject.cpp">
+      <Filter>AI Object\Troop</Filter>
+    </ClCompile>
+    <ClCompile Include="FcParamVariable.cpp">
+      <Filter>AI Object\Parameter Variable</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAIHardCodingFunction.cpp">
+      <Filter>AI Object\Hardcoding AI Funcition\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAIHardCodingFunctionAdditional.cpp">
+      <Filter>AI Object\Hardcoding AI Funcition\Additional Function</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAISearch.cpp">
+      <Filter>AI Object\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAISearchGameObject.cpp">
+      <Filter>AI Object\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAISearchProp.cpp">
+      <Filter>AI Object\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAISearchSlot.cpp">
+      <Filter>AI Object\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="FcState.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\FcMenu3DObject.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\FcMenuForm.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\FcMenuLibraryManager.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\FcMenuManager.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\FcMenuWorldMap.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\FcMessageDef.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\FcDebugMenu.cpp">
+      <Filter>Menu\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\FcMenuLoadData.cpp">
+      <Filter>Menu\Game Start</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\FcMenuLogo.cpp">
+      <Filter>Menu\Game Start</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\FcMenuMainOpening.cpp">
+      <Filter>Menu\Game Start</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\FcMenuTitle.cpp">
+      <Filter>Menu\Game Start</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\FcMenuAbility.cpp">
+      <Filter>Menu\Pause</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\FcMenuControl.cpp">
+      <Filter>Menu\Pause</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\FcMenuMissionObj.cpp">
+      <Filter>Menu\Pause</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\FcMenuPause.cpp">
+      <Filter>Menu\Pause</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\FcMenuStatus.cpp">
+      <Filter>Menu\Pause</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\FcMenuGuardian.cpp">
+      <Filter>Menu\Mission Start</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\FcMenuSaveData.cpp">
+      <Filter>Menu\Mission Start</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\FcMenuSelectChar.cpp">
+      <Filter>Menu\Mission Start</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\FcMenuSelectStage.cpp">
+      <Filter>Menu\Mission Start</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\FcMenuUsual.cpp">
+      <Filter>Menu\Mission Start</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\FcMenuArtWork.cpp">
+      <Filter>Menu\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\FcMenuCharStock.cpp">
+      <Filter>Menu\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\FcMenuLibrary.cpp">
+      <Filter>Menu\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\FcMenuMissionStock.cpp">
+      <Filter>Menu\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\FcMenuGameResult.cpp">
+      <Filter>Menu\Mission End</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\FcMenuStageResult.cpp">
+      <Filter>Menu\Mission End</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\FcMenuMessageBox.cpp">
+      <Filter>Menu\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\FcMenuOption.cpp">
+      <Filter>Menu\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="Trigger\FcTriggerAction.cpp">
+      <Filter>Trigger</Filter>
+    </ClCompile>
+    <ClCompile Include="Trigger\FcTriggerActionTemp.cpp">
+      <Filter>Trigger</Filter>
+    </ClCompile>
+    <ClCompile Include="Trigger\FcTriggerCommander.cpp">
+      <Filter>Trigger</Filter>
+    </ClCompile>
+    <ClCompile Include="Trigger\FcTriggerCondition.cpp">
+      <Filter>Trigger</Filter>
+    </ClCompile>
+    <ClCompile Include="Trigger\BSTrigger.cpp">
+      <Filter>Trigger\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Trigger\BSTriggerAction.cpp">
+      <Filter>Trigger\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Trigger\BSTriggerCondition.cpp">
+      <Filter>Trigger\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Trigger\BSTriggerDefaultData.cpp">
+      <Filter>Trigger\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Trigger\BSTriggerEvent.cpp">
+      <Filter>Trigger\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Trigger\BSTriggerManager.cpp">
+      <Filter>Trigger\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Trigger\BSTriggerVariable.cpp">
+      <Filter>Trigger\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="BsUi\BSuiDefine.cpp">
+      <Filter>BsUi</Filter>
+    </ClCompile>
+    <ClCompile Include="BsUi\Core\BSui.cpp">
+      <Filter>BsUi\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="BsUi\Core\BSuiLoader.cpp">
+      <Filter>BsUi\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="BsUi\Core\BSuiSkin.cpp">
+      <Filter>BsUi\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="BsUi\Core\BsUiStore.cpp">
+      <Filter>BsUi\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="BsUi\Core\BSuiSystem.cpp">
+      <Filter>BsUi\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="BsUi\Core\BsUiView.cpp">
+      <Filter>BsUi\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="BsUi\Core\BSuiWindow.cpp">
+      <Filter>BsUi\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="BsUi\Custom\BSuiClassIDManager.cpp">
+      <Filter>BsUi\Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="BsUi\Custom\BsUiFont.cpp">
+      <Filter>BsUi\Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="BsUi\Custom\BsUiFontAttrManager.cpp">
+      <Filter>BsUi\Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="BsUi\Custom\BSuiGDISkin.cpp">
+      <Filter>BsUi\Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="BsUi\Custom\BsUiGDIView.cpp">
+      <Filter>BsUi\Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="BsUi\Custom\BsUiImageManager.cpp">
+      <Filter>BsUi\Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="BsUi\Custom\BsUiUVManager.cpp">
+      <Filter>BsUi\Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="BSui\Control\BSuiButton.cpp">
+      <Filter>BsUi\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="BsUi\Control\BsUiImageCtrl.cpp">
+      <Filter>BsUi\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="BSui\Control\BSuiLayer.cpp">
+      <Filter>BsUi\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="BSui\Control\BSuiListBox.cpp">
+      <Filter>BsUi\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="BsUi\Control\BsUiListCtrl.cpp">
+      <Filter>BsUi\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="BSui\Control\BSuiSlider.cpp">
+      <Filter>BsUi\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="BSui\Control\BSuiText.cpp">
+      <Filter>BsUi\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="FcPhysicsLoader.cpp">
+      <Filter>Object_Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMesh.cpp">
+      <Filter>Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\navigationcell.cpp">
+      <Filter>Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\navigationmesh.cpp">
+      <Filter>Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\FcAbility.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\FcGauge.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\FcInterfaceDataDefine.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\FcInterfaceManager.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\FcInterfaceMisc.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\FcInterfaceObj.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\FcLetterBox.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\FcMinimap.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\FcMiniMapRTT.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\FcSpeech.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\FcFxBase.cpp">
+      <Filter>FX</Filter>
+    </ClCompile>
+    <ClCompile Include="FcFxBurning.cpp">
+      <Filter>FX</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\FcFXCastEarth.cpp">
+      <Filter>FX</Filter>
+    </ClCompile>
+    <ClCompile Include="FcFXColumnOfWater.cpp">
+      <Filter>FX</Filter>
+    </ClCompile>
+    <ClCompile Include="FcFxDropOfWater.cpp">
+      <Filter>FX</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\FcFXDynamicFog.cpp">
+      <Filter>FX</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\FcFXEarthExplode.cpp">
+      <Filter>FX</Filter>
+    </ClCompile>
+    <ClCompile Include="FcFxGenerater.cpp">
+      <Filter>FX</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\FcFXLensFlare.cpp">
+      <Filter>FX</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\FcFXLightScattering.cpp">
+      <Filter>FX</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\FcFXLine.cpp">
+      <Filter>FX</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\FcFXManager.cpp">
+      <Filter>FX</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\FcFXMeteo.cpp">
+      <Filter>FX</Filter>
+    </ClCompile>
+    <ClCompile Include="FcFxParticleGenerater.cpp">
+      <Filter>FX</Filter>
+    </ClCompile>
+    <ClCompile Include="FcFxRain.cpp">
+      <Filter>FX</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\FcFXScreenMotionBlur.cpp">
+      <Filter>FX</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\FcFXScreenWaterDrop.cpp">
+      <Filter>FX</Filter>
+    </ClCompile>
+    <ClCompile Include="FcFxShotSkin.cpp">
+      <Filter>FX</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\FcFXSimplePlay.cpp">
+      <Filter>FX</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\FcFXSimpleTrail.cpp">
+      <Filter>FX</Filter>
+    </ClCompile>
+    <ClCompile Include="FcFxSpoutsOfWater.cpp">
+      <Filter>FX</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\FcFXTidalWave.cpp">
+      <Filter>FX</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\FcFXTidalWave_Group.cpp">
+      <Filter>FX</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\FcFXTidalWave_Render.cpp">
+      <Filter>FX</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\FcFXWindExplode.cpp">
+      <Filter>FX</Filter>
+    </ClCompile>
+    <ClCompile Include="FcHitMarkMgr.cpp">
+      <Filter>FX</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAbility1kArrow.cpp">
+      <Filter>Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAbilityBase.cpp">
+      <Filter>Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAbilityColumnOfWater.cpp">
+      <Filter>Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAbilityEarth.cpp">
+      <Filter>Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAbilityFire.cpp">
+      <Filter>Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAbilityLight.cpp">
+      <Filter>Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAbilityManager.cpp">
+      <Filter>Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAbilityRedLight.cpp">
+      <Filter>Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAbilitySoul.cpp">
+      <Filter>Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAbilityWater.cpp">
+      <Filter>Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAbilityWind.cpp">
+      <Filter>Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="FcRealtimeMovie.cpp">
+      <Filter>RealtimeMovie</Filter>
+    </ClCompile>
+    <ClCompile Include="GenericCamEditor.cpp">
+      <Filter>GenericCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="GenericCamera.cpp">
+      <Filter>GenericCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="GenericCameraAttach.cpp">
+      <Filter>GenericCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="GenericCameraEditorUI.cpp">
+      <Filter>GenericCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="DX_Util\AtgSignIn.cpp">
+      <Filter>DX_Util</Filter>
+    </ClCompile>
+    <ClCompile Include="FcAchievement.cpp">
+      <Filter>LiveAndSubmission</Filter>
+    </ClCompile>
+    <ClCompile Include="FcLiveManager.cpp">
+      <Filter>LiveAndSubmission</Filter>
+    </ClCompile>
+    <ClCompile Include="FantasyCore.cpp" />
+    <ClCompile Include="FcConsole.cpp" />
+    <ClCompile Include="FcGlobal.cpp" />
+    <ClCompile Include="GlareDefD3D.cpp" />
+    <ClCompile Include="N3_orb.cpp" />
+    <ClCompile Include="skip.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FcAniObject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="FcBaseObject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="FcCameraObject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="FcDropWeapon.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="FcItem.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="SpiritObject_temp.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="FcArcherUnitObject.h">
+      <Filter>Objects\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="FcCatapultObject.h">
+      <Filter>Objects\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="FcEffectLight.h">
+      <Filter>Objects\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="FcFlyUnitObject.h">
+      <Filter>Objects\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="FcGameObject.h">
+      <Filter>Objects\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="FcHorseObject.h">
+      <Filter>Objects\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="FcMoveTowerObject.h">
+      <Filter>Objects\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="FcUnit9SObject.h">
+      <Filter>Objects\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="FcUnitJobChange.h">
+      <Filter>Objects\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="FcUnitObject.h">
+      <Filter>Objects\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAdjutant99King.h">
+      <Filter>Objects\Unit\Adjutant</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAdjutantDarkElf.h">
+      <Filter>Objects\Unit\Adjutant</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAdjutantDwykfarrio.h">
+      <Filter>Objects\Unit\Adjutant</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAdjutantGoblinWizard.h">
+      <Filter>Objects\Unit\Adjutant</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAdjutantKingFrog.h">
+      <Filter>Objects\Unit\Adjutant</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAdjutantMylarrvaryss.h">
+      <Filter>Objects\Unit\Adjutant</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAdjutantObject.h">
+      <Filter>Objects\Unit\Adjutant</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAdjutantSyumerrt.h">
+      <Filter>Objects\Unit\Adjutant</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAdjutantTeaTea.h">
+      <Filter>Objects\Unit\Adjutant</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAdjutantYesperratt.h">
+      <Filter>Objects\Unit\Adjutant</Filter>
+    </ClInclude>
+    <ClInclude Include="Aspharr.h">
+      <Filter>Objects\Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="Dwingvatt.h">
+      <Filter>Objects\Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="FcHeroObject.h">
+      <Filter>Objects\Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="Inphy.h">
+      <Filter>Objects\Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="Klarrann.h">
+      <Filter>Objects\Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="Myifee.h">
+      <Filter>Objects\Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="Tyurru.h">
+      <Filter>Objects\Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="Vigkvagk.h">
+      <Filter>Objects\Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="FcProjectile.h">
+      <Filter>Objects\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="FcProjectileArrow.h">
+      <Filter>Objects\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="FcProjectileBlackhall.h">
+      <Filter>Objects\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="FcProjectileDirectArrow.h">
+      <Filter>Objects\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="FcProjectileMagicFx.h">
+      <Filter>Objects\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="FcProjectilePhysicsThrow.h">
+      <Filter>Objects\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="FcProjectileRoots.h">
+      <Filter>Objects\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="FcProjectileStone.h">
+      <Filter>Objects\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="FcProjectileThrowStone.h">
+      <Filter>Objects\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="FcProjectileTimeBomb.h">
+      <Filter>Objects\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="FcProjectileWaterBomb.h">
+      <Filter>Objects\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="FcCatapultSeqEvent.h">
+      <Filter>Objects\Sequence Event</Filter>
+    </ClInclude>
+    <ClInclude Include="FcHeroSeqEvent.h">
+      <Filter>Objects\Sequence Event</Filter>
+    </ClInclude>
+    <ClInclude Include="FcMoveTowerSeqEvent.h">
+      <Filter>Objects\Sequence Event</Filter>
+    </ClInclude>
+    <ClInclude Include="FcStatusObject.h">
+      <Filter>Objects\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="BSFileManager.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="FcProp.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="FcPropManager.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="FcWorld.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputPad.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="FcSOXFile.h">
+      <Filter>SOXLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="FcSOXLoader.h">
+      <Filter>SOXLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="ASData.h">
+      <Filter>UnitScript</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\AIDef.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\AnimType.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\ATParamType.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\Sound\FcSoundPlayDefinitions.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\FcTerrainAttrDefinitions.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\Sound\FcWaveSoundBankDef.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\ItemDefinitions.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\TroopAIDef.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\Menu\BsUiControlID.h">
+      <Filter>Data\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\Menu\BsUiUVID.h">
+      <Filter>Data\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\assocarray.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\DebugUtil.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="FcCorrelation.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="FcEventSequencer.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\FcGetCaptionUTF16.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="FcUtil.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="FcVelocityCtrl.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\hash3.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\LocalLanguage.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Parser.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\PerfCheck.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\SharedResource.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="ShortPathFinder.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Synchronized.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\TextTable.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Token.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\TokenFile.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\toputil.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\tpGrammer.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\CWavebankStream.h">
+      <Filter>Util\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\FcSoundManager.h">
+      <Filter>Util\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\FcWaveStream.h">
+      <Filter>Util\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\X3dAudioVolumeTable.h">
+      <Filter>Util\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\X3DSoundCalculate.h">
+      <Filter>Util\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\XActSound.h">
+      <Filter>Util\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\XMPBGMPlayer.h">
+      <Filter>Util\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\FcEventCamera.h">
+      <Filter>Util\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="FcGuardianManager.h">
+      <Filter>Troop</Filter>
+    </ClInclude>
+    <ClInclude Include="FcTroopManager.h">
+      <Filter>Troop</Filter>
+    </ClInclude>
+    <ClInclude Include="FcTroopObject.h">
+      <Filter>Troop</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAIFunc.h">
+      <Filter>AI Object</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAIGlobalParam.h">
+      <Filter>AI Object</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAIGlobalVariableMng.h">
+      <Filter>AI Object</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAIObject.h">
+      <Filter>AI Object</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAIElement.h">
+      <Filter>AI Object\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAITriggerAction.h">
+      <Filter>AI Object\Element\Trigger Class</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAITriggerActionProp.h">
+      <Filter>AI Object\Element\Trigger Class</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAITriggerActionTroop.h">
+      <Filter>AI Object\Element\Trigger Class</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAITriggerBase.h">
+      <Filter>AI Object\Element\Trigger Class</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAITriggerCon.h">
+      <Filter>AI Object\Element\Trigger Class</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAITriggerConProp.h">
+      <Filter>AI Object\Element\Trigger Class</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAITriggerConTroop.h">
+      <Filter>AI Object\Element\Trigger Class</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAITriggerFactory.h">
+      <Filter>AI Object\Element\Trigger Class</Filter>
+    </ClInclude>
+    <ClInclude Include="FcTroopAIObject.h">
+      <Filter>AI Object\Troop</Filter>
+    </ClInclude>
+    <ClInclude Include="FcTroopAITrigger.h">
+      <Filter>AI Object\Troop</Filter>
+    </ClInclude>
+    <ClInclude Include="FcParamVariable.h">
+      <Filter>AI Object\Parameter Variable</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAIHardCodingFunction.h">
+      <Filter>AI Object\Hardcoding AI Funcition\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAIHardCodingFunctionAdditional.h">
+      <Filter>AI Object\Hardcoding AI Funcition\Additional Function</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAISearch.h">
+      <Filter>AI Object\Search</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAISearchGameObject.h">
+      <Filter>AI Object\Search</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAISearchProp.h">
+      <Filter>AI Object\Search</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAISearchSlot.h">
+      <Filter>AI Object\Search</Filter>
+    </ClInclude>
+    <ClInclude Include="FcState.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\FcMenu3DObject.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\FcMenuDef.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\FcMenuForm.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\FcMenuLibraryManager.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\FcMenuManager.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\FcMenuWorldMap.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\FcMessageDef.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\FcDebugMenu.h">
+      <Filter>Menu\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\FcMenuLoadData.h">
+      <Filter>Menu\Game Start</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\FcMenuLogo.h">
+      <Filter>Menu\Game Start</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\FcMenuMainOpening.h">
+      <Filter>Menu\Game Start</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\FcMenuTitle.h">
+      <Filter>Menu\Game Start</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\FcMenuAbility.h">
+      <Filter>Menu\Pause</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\FcMenuControl.h">
+      <Filter>Menu\Pause</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\FcMenuMissionObj.h">
+      <Filter>Menu\Pause</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\FcMenuPause.h">
+      <Filter>Menu\Pause</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\FcMenuStatus.h">
+      <Filter>Menu\Pause</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\FcMenuGuardian.h">
+      <Filter>Menu\Mission Start</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\FcMenuSaveData.h">
+      <Filter>Menu\Mission Start</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\FcMenuSelectChar.h">
+      <Filter>Menu\Mission Start</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\FcMenuSelectStage.h">
+      <Filter>Menu\Mission Start</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\FcMenuUsual.h">
+      <Filter>Menu\Mission Start</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\FcMenuArtWork.h">
+      <Filter>Menu\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\FcMenuCharStock.h">
+      <Filter>Menu\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\FcMenuLibrary.h">
+      <Filter>Menu\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\FcMenuMissionStock.h">
+      <Filter>Menu\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\FcMenuGameResult.h">
+      <Filter>Menu\Mission End</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\FcMenuStageResult.h">
+      <Filter>Menu\Mission End</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\FcMenuMessageBox.h">
+      <Filter>Menu\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\FcMenuOption.h">
+      <Filter>Menu\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Trigger\FcTriggerAction.h">
+      <Filter>Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="Trigger\FcTriggerCommander.h">
+      <Filter>Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="Trigger\FcTriggerCondition.h">
+      <Filter>Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="Trigger\BSTrigger.h">
+      <Filter>Trigger\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Trigger\BSTriggerAction.h">
+      <Filter>Trigger\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Trigger\BSTriggerCondition.h">
+      <Filter>Trigger\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Trigger\BSTriggerDefaultData.h">
+      <Filter>Trigger\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Trigger\BSTriggerEvent.h">
+      <Filter>Trigger\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Trigger\BSTriggerManager.h">
+      <Filter>Trigger\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Trigger\BSTriggerVariable.h">
+      <Filter>Trigger\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Trigger\BSTriggerCodeDefine.h">
+      <Filter>Trigger\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Trigger\BSTriggerStrDefinition.h">
+      <Filter>Trigger\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Trigger\FcTriggerGlobalVar.h">
+      <Filter>Trigger\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="BsUi\BSuiDefine.h">
+      <Filter>BsUi</Filter>
+    </ClInclude>
+    <ClInclude Include="BsUi\Core\BSui.h">
+      <Filter>BsUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="BsUi\Core\BSuiException.h">
+      <Filter>BsUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="BsUi\Core\BSuiLoader.h">
+      <Filter>BsUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="BsUi\Core\BSuiSkin.h">
+      <Filter>BsUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="BsUi\Core\BsUiStore.h">
+      <Filter>BsUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="BsUi\Core\BSuiSystem.h">
+      <Filter>BsUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="BsUi\Core\BsUiView.h">
+      <Filter>BsUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="BsUi\Core\BSuiWindow.h">
+      <Filter>BsUi\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="BsUi\Custom\BSuiClassIDManager.h">
+      <Filter>BsUi\Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="BsUi\Custom\BsUiFont.h">
+      <Filter>BsUi\Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="BsUi\Custom\BsUiFontAttrManager.h">
+      <Filter>BsUi\Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="BsUi\Custom\BSuiGDISkin.h">
+      <Filter>BsUi\Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="BsUi\Custom\BsUiGDIView.h">
+      <Filter>BsUi\Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="BsUi\Custom\BsUiImageManager.h">
+      <Filter>BsUi\Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="BsUi\Custom\BsUiUVManager.h">
+      <Filter>BsUi\Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="BSui\Control\BSuiButton.h">
+      <Filter>BsUi\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="BsUi\Control\BsUiImageCtrl.h">
+      <Filter>BsUi\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="BSui\Control\BSuiLayer.h">
+      <Filter>BsUi\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="BSui\Control\BSuiListBox.h">
+      <Filter>BsUi\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="BsUi\Control\BsUiListCtrl.h">
+      <Filter>BsUi\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="BSui\Control\BSuiSlider.h">
+      <Filter>BsUi\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="BSui\Control\BSuiText.h">
+      <Filter>BsUi\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="FcPhysicsLoader.h">
+      <Filter>Object_Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMesh.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\line2d.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\navigationcell.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\navigationheap.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\navigationmesh.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\navigationpath.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\navigationwaypoint.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\plane.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\FcAbility.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\FcGauge.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\FcInterfaceDataDefine.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\FcInterfaceManager.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\FcInterfaceMisc.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\FcInterfaceObj.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\FcLetterBox.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\FcMinimap.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\FcMiniMapRTT.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\FcSpeech.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect\FcFxBase.h">
+      <Filter>FX</Filter>
+    </ClInclude>
+    <ClInclude Include="FcFxBurning.h">
+      <Filter>FX</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect\FcFXCastEarth.h">
+      <Filter>FX</Filter>
+    </ClInclude>
+    <ClInclude Include="FcFXColumnOfWater.h">
+      <Filter>FX</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect\FcFXCommon.h">
+      <Filter>FX</Filter>
+    </ClInclude>
+    <ClInclude Include="FcFxDropOfWater.h">
+      <Filter>FX</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect\FcFXDynamicFog.h">
+      <Filter>FX</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect\FcFXEarthExplode.h">
+      <Filter>FX</Filter>
+    </ClInclude>
+    <ClInclude Include="FcFxGenerater.h">
+      <Filter>FX</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect\FcFXLensFlare.h">
+      <Filter>FX</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect\FcFXLightScattering.h">
+      <Filter>FX</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect\FcFXLine.h">
+      <Filter>FX</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect\FcFXManager.h">
+      <Filter>FX</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect\FcFXMeteo.h">
+      <Filter>FX</Filter>
+    </ClInclude>
+    <ClInclude Include="FcFxParticleGenerater.h">
+      <Filter>FX</Filter>
+    </ClInclude>
+    <ClInclude Include="FcFxRain.h">
+      <Filter>FX</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect\FcFXScreenMotionBlur.h">
+      <Filter>FX</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect\FcFXScreenWaterDrop.h">
+      <Filter>FX</Filter>
+    </ClInclude>
+    <ClInclude Include="FcFxShotSkin.h">
+      <Filter>FX</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect\FcFXSimplePlay.h">
+      <Filter>FX</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect\FcFXSimpleTrail.h">
+      <Filter>FX</Filter>
+    </ClInclude>
+    <ClInclude Include="FcFxSpoutsOfWater.h">
+      <Filter>FX</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect\FcFXTidalWave.h">
+      <Filter>FX</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect\FcFXWindExplode.h">
+      <Filter>FX</Filter>
+    </ClInclude>
+    <ClInclude Include="FcHitMarkMgr.h">
+      <Filter>FX</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAbility1kArrow.h">
+      <Filter>Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAbilityBase.h">
+      <Filter>Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAbilityColumnOfWater.h">
+      <Filter>Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAbilityEarth.h">
+      <Filter>Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAbilityFire.h">
+      <Filter>Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAbilityLight.h">
+      <Filter>Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAbilityManager.h">
+      <Filter>Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAbilityRedLight.h">
+      <Filter>Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAbilitySoul.h">
+      <Filter>Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAbilityWater.h">
+      <Filter>Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAbilityWind.h">
+      <Filter>Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="FcRealtimeMovie.h">
+      <Filter>RealtimeMovie</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\Camera\GenericCamDef.h">
+      <Filter>GenericCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericCamEditor.h">
+      <Filter>GenericCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericCamera.h">
+      <Filter>GenericCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericCameraAttach.h">
+      <Filter>GenericCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="DX_Util\AtgSignIn.h">
+      <Filter>DX_Util</Filter>
+    </ClInclude>
+    <ClInclude Include="FcAchievement.h">
+      <Filter>LiveAndSubmission</Filter>
+    </ClInclude>
+    <ClInclude Include="FcLiveManager.h">
+      <Filter>LiveAndSubmission</Filter>
+    </ClInclude>
+    <ClInclude Include="CDefinition.h" />
+    <ClInclude Include="FantasyCore.h" />
+    <ClInclude Include="FcCommon.h" />
+    <ClInclude Include="FcConsole.h" />
+    <ClInclude Include="FcDefines.h" />
+    <ClInclude Include="FcGlobal.h" />
+    <ClInclude Include="GlareDefD3D.h" />
+    <ClInclude Include="n3_orb.h" />
+    <ClInclude Include="RangeScan.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="skip.h" />
+    <ClInclude Include="SmartPtr.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="FantasyCore.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FantasyCore.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Data\AnimID.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="Data\Sound\FcWaveBankList.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="Data\ParticleList.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="Data\PartsTable.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="Data\SignalID.txt">
+      <Filter>Data</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="N3GameConfig.xlast">
+      <Filter>LiveAndSubmission</Filter>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="xex.xml">
+      <Filter>LiveAndSubmission</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

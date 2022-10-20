@@ -1,0 +1,1964 @@
+// PARTS TYPE
+// 1 : Armor
+// 2 : Weapon
+// 3 : Projectile
+//
+
+UNIT_NAME "C_LP_KM"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	1
+		"char\C_LP_KM\PH_PARTS\C_LP_KM1_MANTLE.skin"
+		"char\C_LP_KM\PH_PARTS\C_LP_KM1_HAIR.skin"
+		END
+
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	2
+		"char\C_LP_KM\PH_PARTS\C_LP_KM1_CollisionMesh.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LP_KM_W1.skin"
+		END
+END
+
+UNIT_NAME "C_LP_KF"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	1
+		"char\C_LP_KF\PH_PARTS\C_LP_KF1_HAIR.SKIN"
+		"char\C_LP_KF\PH_PARTS\C_LP_KF1_MANTLE.SKIN"
+		END
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	2
+		"char\C_LP_KF\PH_PARTS\C_LP_KF1_CollisionMesh.txt"
+		END
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LP_KF_W3.skin"
+		END
+END
+
+UNIT_NAME "C_LP_MF"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	1
+		"char\C_LP_MF\PH_PARTS\C_LP_MF_HAIR.skin"
+		"char\C_LP_MF\PH_PARTS\C_LP_MF_SKIRT.skin"
+		"char\C_LP_MF\PH_PARTS\C_LP_MF_HOOD.skin"
+		"char\C_LP_MF\PH_PARTS\C_LP_MF_L RING.skin"
+		"char\C_LP_MF\PH_PARTS\C_LP_MF_R RING.skin"
+		"char\C_LP_MF\PH_PARTS\C_LP_MF_CAP.skin"
+		END
+
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	2
+		"char\C_LP_MF\PH_PARTS\C_LP_MF2_Collision.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LP_MF_W1.skin"
+		END
+END
+
+UNIT_NAME "C_LP_PM"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	1
+		"char\C_LP_PM\PH_PARTS\C_LP_PM1_HAIR.SKIN"
+		"char\C_LP_PM\PH_PARTS\C_LP_PM1_LONG_SHAWL.SKIN"
+		"char\C_LP_PM\PH_PARTS\C_LP_PM1_PENDANT.SKIN"
+		"char\C_LP_PM\PH_PARTS\C_LP_PM1_SHAWL.SKIN"
+		"char\C_LP_PM\PH_PARTS\C_LP_PM1_SKIRT.SKIN"
+		END
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	2
+		"char\C_LP_PM\PH_PARTS\C_LP_PM1_COLLISION.txt"
+		END
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LP_PM_W1.skin"
+		END
+END
+
+UNIT_NAME "C_LP_WM"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	1
+		"char\C_LP_WM\PH_PARTS\C_LP_WM1_CHAIN.SKIN"
+		"char\C_LP_WM\PH_PARTS\C_LP_WM1_CHOTH.SKIN"
+		"char\C_LP_WM\PH_PARTS\C_LP_WM1_NECKLACE.SKIN"
+		"char\C_LP_WM\PH_PARTS\C_LP_WM1_HAIR.SKIN"
+		END
+
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	2
+		"char\C_LP_WM\PH_PARTS\C_LP_WM_COLLISION.txt"
+		END
+
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LP_WM_W1.skin"
+		END
+	"Dummy_WP_L"
+		PARTS_TYPE		2
+		PARTS_GROUP		2
+		SIMULATION_PARTS	0
+		"weapons\C_LP_WM_W1.skin"
+		END
+END
+
+UNIT_NAME "C_DP_TR"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	1
+		"char\C_DP_TR\PH_PARTS\C_DP_TR_Chain.skin"
+		"char\C_DP_TR\PH_PARTS\C_DP_TR_Cloth.skin"
+		"char\C_DP_TR\PH_PARTS\C_DP_TR_LHandChain.skin"
+		"char\C_DP_TR\PH_PARTS\C_DP_TR_RHandChain.skin"
+		END
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	2
+		"char\C_DP_TR\PH_PARTS\C_DP_TR_Collision.txt"
+		END
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\P_MP_TR06_W.SKIN"
+		END
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		2
+		SIMULATION_PARTS	0
+		"weapons\P_PL_ET13_W1.SKIN"
+		END
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		3
+		SIMULATION_PARTS	0
+		"weapons\P_PL_ET14_W1.SKIN"
+		END
+END
+
+UNIT_NAME "C_DP_GB"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	1
+		"char\C_DP_GB\PH_PARTS\C_DP_GB1_HAIR.SKIN"
+		"char\C_DP_GB\PH_PARTS\C_DP_GB1_MANTLE.SKIN"
+		END
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DP_GB_W_R1.skin"
+		END
+
+	"Dummy_WP_L"
+		PARTS_TYPE		2
+		PARTS_GROUP		2
+		SIMULATION_PARTS	0
+		"weapons\C_DP_GB_W_R1.skin"
+		END
+END
+
+
+UNIT_NAME "C_LS_SL1_OH"
+	"Bip01 Head"
+		PARTS_TYPE		1
+		PARTS_GROUP		2
+		SIMULATION_PARTS	0
+		"char\C_LS_SL1\PARTS\C_LS_SL1_HM1.skin"
+		"char\C_LS_SL1\PARTS\C_LS_SL1_HM2.skin"
+		"char\C_LS_SL1\PARTS\C_LS_SL1_HM3.skin"
+		END
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_LS_SL1\C_LS_SL_RAGDOLL.txt"
+		END
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LS_SL1_WS1.skin"
+		"weapons\C_LS_SL1_WS2.skin"
+		"weapons\C_LS_SL1_WS3.skin"
+		END
+END
+
+UNIT_NAME "C_LS_SL1_SP"
+	"Bip01 Head"
+		PARTS_TYPE		1
+		PARTS_GROUP		2
+		SIMULATION_PARTS	0
+		"char\C_LS_SL1\PARTS\C_LS_SL1_HM1.skin"
+		"char\C_LS_SL1\PARTS\C_LS_SL1_HM2.skin"
+		"char\C_LS_SL1\PARTS\C_LS_SL1_HM3.skin"
+		END
+
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_LS_SL1\C_LS_SL_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LS_SL1_WP1.skin"
+		"weapons\C_LS_SL1_WP2.skin"
+		"weapons\C_LS_SL1_WP3.skin"
+		END
+END
+
+UNIT_NAME "C_LS_SL2_OH"
+	
+	"Bip01 Head"
+		PARTS_TYPE		1
+		PARTS_GROUP		2
+		SIMULATION_PARTS	0
+		"char\C_LS_SL2\PARTS\C_LS_SL2_HM1.SKIN"
+		"char\C_LS_SL2\PARTS\C_LS_SL2_HM2.SKIN"
+		END
+
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_LS_SL1\C_LS_SL_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LS_SL1_WS1.skin"
+		"weapons\C_LS_SL1_WS2.skin"
+		"weapons\C_LS_SL1_WS3.skin"
+		END
+
+END
+
+UNIT_NAME "C_LS_SL2_SP"
+	"Bip01 Head"
+		PARTS_TYPE		1
+		PARTS_GROUP		2
+		SIMULATION_PARTS	0
+		"char\C_LS_SL2\PARTS\C_LS_SL2_HM1.SKIN"
+		"char\C_LS_SL2\PARTS\C_LS_SL2_HM2.SKIN"
+		END
+
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_LS_SL1\C_LS_SL_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LS_SL1_WP1.skin"
+		"weapons\C_LS_SL1_WP2.skin"
+		"weapons\C_LS_SL1_WP3.skin"
+		END
+END
+
+UNIT_NAME "C_LS_SL3_OH"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	1
+		"char\C_LS_SL3\PH_PARTS\C_LS_SL3_MANTLE.SKIN"	// A,B,C,D 는 프로그램에서 붙여준다
+		END
+
+	"Bip01 Head"
+		PARTS_TYPE		1
+		PARTS_GROUP		2
+		SIMULATION_PARTS	0
+		"char\C_LS_SL3\PARTS\C_LS_SL3_HM1.skin"
+		"char\C_LS_SL3\PARTS\C_LS_SL3_HM2.skin"
+		END
+
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_LS_SL1\C_LS_SL_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LS_SL1_WS1.skin"
+		"weapons\C_LS_SL1_WS2.skin"
+		"weapons\C_LS_SL1_WS3.skin"
+		END
+
+END
+
+UNIT_NAME "C_LS_SL3_SP"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	1
+		"char\C_LS_SL3\PH_PARTS\C_LS_SL3_MANTLE.SKIN"	// A,B,C,D 는 프로그램에서 붙여준다
+		END
+
+	"Bip01 Head"
+		PARTS_TYPE		1
+		PARTS_GROUP		2
+		SIMULATION_PARTS	0
+		"char\C_LS_SL3\PARTS\C_LS_SL3_HM1.skin"
+		"char\C_LS_SL3\PARTS\C_LS_SL3_HM2.skin"
+		END
+
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_LS_SL1\C_LS_SL_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LS_SL1_WP1.skin"
+		"weapons\C_LS_SL1_WP2.skin"
+		"weapons\C_LS_SL1_WP3.skin"
+		END
+
+END
+
+UNIT_NAME "C_LS_SL4_AR"
+	"Bip01 Head"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"char\C_LS_SL4\PARTS\C_LS_SL4_HM1.skin"
+		"char\C_LS_SL4\PARTS\C_LS_SL4_HM2.skin"
+		"char\C_LS_SL4\PARTS\C_LS_SL4_HM3.skin"
+		"char\C_LS_SL4\PARTS\C_LS_SL4_HM4.skin"
+		END
+
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_LS_SL1\C_LS_SL_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_L"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LS_AR1_WB1.skin"
+		"weapons\C_LS_AR1_WB2.skin"
+		END
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		2
+		SIMULATION_PARTS	0
+		"weapons\C_LS_AR1_WD1.skin"
+		"weapons\C_LS_AR1_WD2.skin"
+		END
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		3
+		SIMULATION_PARTS	0
+		"weapons\C_LS_AR1_WA1.skin"
+		END
+	"Dummy_WP_R"
+		PARTS_TYPE		3
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LS_AR1_WA2.skin"
+		END
+END
+
+
+UNIT_NAME "C_DS_OC4_OH"
+	"Bip01 Head"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"char\C_DS_OC4\PARTS\C_DS_OC4_HM1.skin"
+		"char\C_DS_OC4\PARTS\C_DS_OC4_HM2.skin"
+		"char\C_DS_OC4\PARTS\C_DS_OC4_HM3.skin"
+		END
+
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_DS_OC1\C_DS_OC_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DP_OC1_W11.skin"
+		"weapons\C_DP_OC1_W12.skin"
+		"weapons\C_DP_OC1_W13.skin"
+		END
+END
+
+UNIT_NAME "C_DS_OC4_TH"
+	"Bip01 Head"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"char\C_DS_OC4\PARTS\C_DS_OC4_HM1.skin"
+		"char\C_DS_OC4\PARTS\C_DS_OC4_HM2.skin"
+		"char\C_DS_OC4\PARTS\C_DS_OC4_HM3.skin"
+		END
+
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_DS_OC1\C_DS_OC_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DP_OC1_W14.skin"
+		"weapons\C_DP_OC1_W15.skin"
+		"weapons\C_DP_OC1_W16.skin"
+		END
+END
+
+UNIT_NAME "C_DS_OC5_OH"
+	"Bip01 Head"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"char\C_DS_OC5\PARTS\C_DS_OC5_HM1.skin"
+		"char\C_DS_OC5\PARTS\C_DS_OC5_HM2.skin"
+		"char\C_DS_OC5\PARTS\C_DS_OC5_HM3.skin"
+		"char\C_DS_OC5\PARTS\C_DS_OC5_HM4.skin"
+		"char\C_DS_OC5\PARTS\C_DS_OC5_HM5.skin"
+		END
+
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_DS_OC1\C_DS_OC_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DP_OC1_W11.skin"
+		"weapons\C_DP_OC1_W12.skin"
+		"weapons\C_DP_OC1_W13.skin"
+		END
+END
+
+UNIT_NAME "C_DS_OC5_TH"
+	"Bip01 Head"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"char\C_DS_OC5\PARTS\C_DS_OC5_HM1.skin"
+		"char\C_DS_OC5\PARTS\C_DS_OC5_HM2.skin"
+		"char\C_DS_OC5\PARTS\C_DS_OC5_HM3.skin"
+		"char\C_DS_OC5\PARTS\C_DS_OC5_HM4.skin"
+		"char\C_DS_OC5\PARTS\C_DS_OC5_HM5.skin"
+		END
+
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_DS_OC1\C_DS_OC_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DP_OC1_W14.skin"
+		"weapons\C_DP_OC1_W15.skin"
+		"weapons\C_DP_OC1_W16.skin"
+		END
+END
+
+UNIT_NAME "C_DS_OC7_OH"
+	"Bip01 Head"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"char\C_DS_OC7\PARTS\C_DS_OC7_HM1.skin"
+		"char\C_DS_OC7\PARTS\C_DS_OC7_HM2.skin"
+		"char\C_DS_OC7\PARTS\C_DS_OC7_HM3.skin"
+		"char\C_DS_OC7\PARTS\C_DS_OC7_HM4.skin"
+		END
+
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_DS_OC1\C_DS_OC_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DP_OC1_W11.skin"
+		"weapons\C_DP_OC1_W12.skin"
+		"weapons\C_DP_OC1_W13.skin"
+		END
+END
+
+UNIT_NAME "C_DS_OC7_TH"
+	"Bip01 Head"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"char\C_DS_OC7\PARTS\C_DS_OC7_HM1.skin"
+		"char\C_DS_OC7\PARTS\C_DS_OC7_HM2.skin"
+		"char\C_DS_OC7\PARTS\C_DS_OC7_HM3.skin"
+		"char\C_DS_OC7\PARTS\C_DS_OC7_HM4.skin"
+		END
+
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_DS_OC1\C_DS_OC_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DP_OC1_W14.skin"
+		"weapons\C_DP_OC1_W15.skin"
+		"weapons\C_DP_OC1_W16.skin"
+		END
+END
+
+UNIT_NAME "C_DS_OC8_OH"
+	"Bip01 Head"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"char\C_DS_OC8\PARTS\C_DS_OC8_HM1.skin"
+		"char\C_DS_OC8\PARTS\C_DS_OC8_HM2.skin"
+		"char\C_DS_OC8\PARTS\C_DS_OC8_HM3.skin"
+		"char\C_DS_OC8\PARTS\C_DS_OC8_HM4.skin"
+		END
+
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_DS_OC1\C_DS_OC_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DP_OC1_W11.skin"
+		"weapons\C_DP_OC1_W12.skin"
+		"weapons\C_DP_OC1_W13.skin"
+		END
+END
+
+UNIT_NAME "C_DS_OC8_TH"
+	"Bip01 Head"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"char\C_DS_OC8\PARTS\C_DS_OC8_HM1.skin"
+		"char\C_DS_OC8\PARTS\C_DS_OC8_HM2.skin"
+		"char\C_DS_OC8\PARTS\C_DS_OC8_HM3.skin"
+		"char\C_DS_OC8\PARTS\C_DS_OC8_HM4.skin"
+		END
+
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_DS_OC1\C_DS_OC_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DP_OC1_W14.skin"
+		"weapons\C_DP_OC1_W15.skin"
+		"weapons\C_DP_OC1_W16.skin"
+		END
+END
+
+UNIT_NAME "C_DS_OC1_OH"
+	"Bip01 Head"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"char\C_DS_OC1\PARTS\C_DS_OC1_HM1.skin"
+		"char\C_DS_OC1\PARTS\C_DS_OC1_HM2.skin"
+		END
+
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_DS_OC1\C_DS_OC_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DS_OC1_W11.skin"
+		"weapons\C_DS_OC1_W12.skin"
+		END
+
+END
+
+UNIT_NAME "C_DS_OC1_TH"
+	"Bip01 Head"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"char\C_DS_OC1\PARTS\C_DS_OC1_HM1.skin"
+		"char\C_DS_OC1\PARTS\C_DS_OC1_HM2.skin"
+		END
+
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_DS_OC1\C_DS_OC_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DS_OC1_W13.skin"
+		END
+END
+
+UNIT_NAME "C_DS_OC2_OH"
+	"Bip01 Head"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"char\C_DS_OC2\PARTS\C_DS_OC2_HM1.skin"
+		"char\C_DS_OC2\PARTS\C_DS_OC2_HM2.skin"
+		"char\C_DS_OC2\PARTS\C_DS_OC2_HM3.skin"
+		"char\C_DS_OC2\PARTS\C_DS_OC2_HM4.skin"
+		END
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_DS_OC1\C_DS_OC_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DS_OC1_W11.skin"
+		"weapons\C_DS_OC1_W12.skin"
+		END
+END
+
+UNIT_NAME "C_DS_OC2_TH"
+	"Bip01 Head"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"char\C_DS_OC2\PARTS\C_DS_OC2_HM1.skin"
+		"char\C_DS_OC2\PARTS\C_DS_OC2_HM2.skin"
+		"char\C_DS_OC2\PARTS\C_DS_OC2_HM3.skin"
+		"char\C_DS_OC2\PARTS\C_DS_OC2_HM4.skin"
+		END
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_DS_OC1\C_DS_OC_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DS_OC1_W13.skin"
+		END
+END
+
+UNIT_NAME "C_DS_DG"
+
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_DS_DG1\C_DS_DG11_Ragdoll.txt"
+		END
+
+END
+
+UNIT_NAME "C_DS_EF2_OH"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_DS_EF1\C_DS_EF_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DS_EF1_W11.skin"
+		END
+END
+
+UNIT_NAME "C_DS_GB1_OH"
+
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_DS_GB1\C_DS_GB_Ragdoll.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DS_GB1_W21.skin"
+		"weapons\C_DS_GB1_W22.skin"
+		"weapons\C_DS_GB1_W23.skin"
+		END
+END
+
+UNIT_NAME "C_DS_GB1_SP"
+
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_DS_GB1\C_DS_GB_Ragdoll.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DP_GB1_W11.SKIN"
+		"weapons\C_DP_GB1_W12.SKIN"
+		"weapons\C_DP_GB1_W13.SKIN"
+		END
+END
+
+UNIT_NAME "C_DS_GB1_AR"
+
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_DS_GB1\C_DS_GB_Ragdoll.txt"
+		END
+
+	"Dummy_WP_L"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DS_GB1_WB1.skin"
+		"weapons\C_DS_GB1_WB2.skin"
+		END
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		2
+		SIMULATION_PARTS	0
+		"weapons\C_DS_GB1_W21.skin"
+		"weapons\C_DS_GB1_W22.skin"
+		"weapons\C_DS_GB1_W23.skin"
+		END
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		3
+		SIMULATION_PARTS	0
+		"weapons\C_DS_GB1_WA1.skin"
+		END
+	"Dummy_WP_R"
+		PARTS_TYPE		3
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DS_GB1_WA2.skin"
+		END
+END
+
+UNIT_NAME "C_DS_GB3"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	1
+		"char\C_DS_GB3\PH_PARTS\C_DS_GB31_SKIRT.SKIN"
+		END
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_DS_GB1\C_DS_GB_Ragdoll.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DS_GB2_W11.skin"
+		"weapons\C_DS_GB2_W12.skin"
+		END
+END
+
+UNIT_NAME "C_DS_GB4"
+
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_DS_GB1\C_DS_GB_Ragdoll.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DS_GB2_W11.skin"
+		"weapons\C_DS_GB2_W12.skin"
+		END
+END
+
+
+
+UNIT_NAME "C_DS_CAT"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	4
+		"char\C_DS_CAT\PH_PARTS\C_DS_CAT_BR.SKIN"
+			
+		END
+	"Stone_Dummy12"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DS_CAT_WS1.SKIN"
+		END
+END
+
+UNIT_NAME "C_DS_GBC"
+
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_DS_GB1\C_DS_GB_Ragdoll.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DS_GB1_W21.skin"
+		"weapons\C_DS_GB1_W22.skin"
+		"weapons\C_DS_GB1_W23.skin"
+		END
+END
+
+UNIT_NAME "C_LS_SL1_TH"
+	"Bip01 Head"
+		PARTS_TYPE		1
+		PARTS_GROUP		2
+		SIMULATION_PARTS	0
+		"char\C_LS_SL1\PARTS\C_LS_SL1_HM1.skin"
+		"char\C_LS_SL1\PARTS\C_LS_SL1_HM2.skin"
+		"char\C_LS_SL1\PARTS\C_LS_SL1_HM3.skin"
+		END
+
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_LS_SL1\C_LS_SL_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LS_WR1_W1.SKIN"
+		"weapons\C_LS_WR1_W2.SKIN"
+		"weapons\C_LS_WR1_W3.SKIN"
+		END
+END
+
+UNIT_NAME "C_LS_SL2_TH"
+	"Bip01 Head"
+		PARTS_TYPE		1
+		PARTS_GROUP		2
+		SIMULATION_PARTS	0
+		"char\C_LS_SL2\PARTS\C_LS_SL2_HM1.skin"
+		"char\C_LS_SL2\PARTS\C_LS_SL2_HM2.skin"
+		END
+
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_LS_SL1\C_LS_SL_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LS_WR1_W1.SKIN"
+		"weapons\C_LS_WR1_W2.SKIN"
+		"weapons\C_LS_WR1_W3.SKIN"
+		END
+END
+
+UNIT_NAME "C_LS_SL3_TH"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	1
+		"char\C_LS_SL3\PH_PARTS\C_LS_SL3_MANTLE.SKIN"	// A,B,C,D 는 프로그램에서 붙여준다
+		END
+
+	"Bip01 Head"
+		PARTS_TYPE		1
+		PARTS_GROUP		2
+		SIMULATION_PARTS	0
+		"char\C_LS_SL3\PARTS\C_LS_SL3_HM1.skin"
+		"char\C_LS_SL3\PARTS\C_LS_SL3_HM2.skin"
+		END
+
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_LS_SL1\C_LS_SL_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LS_WR1_W1.SKIN"
+		"weapons\C_LS_WR1_W2.SKIN"
+		"weapons\C_LS_WR1_W3.SKIN"
+		END
+END
+
+
+UNIT_NAME "C_LN_FR"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	1
+		"char\C_LN_FR1\PH_PARTS\C_LN_FR1_HAIR.SKIN"
+		END
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_LS_SL1\C_LS_SL_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LN_FR_W1.skin"
+		END
+END
+
+
+UNIT_NAME "C_LN_ME1"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	1
+		"char\C_LN_ME1\PH_PARTS\C_LN_ME1_CLOTH.SKIN"
+		"char\C_LN_ME1\PH_PARTS\C_LN_ME1_CLOTH_1.SKIN"
+		"char\C_LN_ME1\PH_PARTS\C_LN_ME1_HAIR.SKIN"
+		END
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	2
+		"char\C_LN_ME1\PH_PARTS\C_LN_ME1_COLLISION.txt"
+		END
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_LS_SL1\C_LS_SL_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LN_ME_W1.skin"
+		END
+END
+
+
+UNIT_NAME "C_LN_MF1"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	1
+		"char\C_LN_MF1\PH_PARTS\C_LN_MF1_BEARD.SKIN"
+		"char\C_LN_MF1\PH_PARTS\C_LN_MF1_HEAD.SKIN"
+		"char\C_LN_MF1\PH_PARTS\C_LN_MF1_MANTLE.SKIN"
+		"char\C_LN_MF1\PH_PARTS\C_LN_MF1_SLEEVE.SKIN"
+		"char\C_LN_MF1\PH_PARTS\C_LN_MF1_SHOULDER.SKIN"
+		"char\C_LN_MF1\PH_PARTS\C_LN_MF1_WAISTCLOTH.SKIN"
+		END
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	2
+		"char\C_LN_MF1\PH_PARTS\C_LN_MF1_COLLISION.txt"
+		END
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_LS_SL1\C_LS_SL_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LN_MF_W1.skin"
+		END
+END
+
+
+UNIT_NAME "C_LN_KB1"
+
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_LS_SL1\C_LS_SL_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LN_KB1_W1.skin"
+		END
+END
+
+UNIT_NAME "C_LN_KB2"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	1
+		"char\C_LN_KB2\PH_PARTS\C_LN_KB2_CLOTH.SKIN"
+		END
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	2
+		"char\C_LN_KB2\PH_PARTS\C_LN_KB2_Collision.txt"
+		END
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_LS_SL1\C_LS_SL_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LN_KB2_W1.SKIN"
+		END
+END
+
+UNIT_NAME "C_LN_KN1"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	1
+		"char\C_LN_KN1\PH_PARTS\C_LN_KN11_MANTLE.SKIN"
+		END
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LS_SL1_WS1.skin"
+		END
+END
+
+UNIT_NAME "C_LN_KN2"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	1
+		"char\C_LN_KN2\PH_PARTS\C_LN_KN21_MANTLE.SKIN"
+		END
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LS_SL1_WS2.skin"
+		END
+END
+
+UNIT_NAME "C_LN_KN3"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	1
+		"char\C_LN_KN3\PH_PARTS\C_LN_KN31_MANTLE.SKIN"
+		END
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LS_SL1_WS3.skin"
+		END
+END
+
+UNIT_NAME "C_LN_FM1"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	1
+		"char\C_LN_FM1\PH_PARTS\C_LN_FM1_HAIR1.SKIN"
+		"char\C_LN_FM1\PH_PARTS\C_LN_FM1_HAIR2.SKIN"
+		"char\C_LN_FM1\PH_PARTS\C_LN_FM1_BEAD.SKIN"
+		END
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	2
+		"char\C_LN_FM1\PH_PARTS\C_LN_FM1_COLLISION.txt"
+		END
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_LS_SL1\C_LS_SL_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LN_FM_W1.skin"
+		END
+END
+
+UNIT_NAME "C_LN_DK1"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	1
+		"char\C_LN_DK1\PH_PARTS\C_LN_DK1_HAIR.SKIN"
+		"char\C_LN_DK1\PH_PARTS\C_LN_DK1_MANTLE.SKIN"
+		"char\C_LN_DK1\PH_PARTS\C_LN_DK1_SHOU.SKIN"
+		"char\C_LN_DK1\PH_PARTS\C_LN_DK1_HAIR.SKIN"
+		END
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	2
+		"char\C_LN_DK1\PH_PARTS\C_LN_DK1_collision.txt"
+		END
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_LS_SL1\C_LS_SL_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LN_DK_W1.skin"
+		END
+END
+
+UNIT_NAME "C_DS_GB2_OH"
+	"Bip01 Head"
+		PARTS_TYPE		1
+		PARTS_GROUP		2
+		SIMULATION_PARTS	0
+		"char\C_DS_GB2\PARTS\C_DS_GB2_HM1.skin"
+		"char\C_DS_GB2\PARTS\C_DS_GB2_HM2.skin"
+		END
+
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_DS_GB1\C_DS_GB_Ragdoll.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DS_GB2_W11.skin"
+		"weapons\C_DS_GB2_W12.skin"
+		END
+END
+
+UNIT_NAME "C_DS_GB2_SP"
+
+	"Bip01 Head"
+		PARTS_TYPE		1
+		PARTS_GROUP		2
+		SIMULATION_PARTS	0
+		"char\C_DS_GB2\PARTS\C_DS_GB2_HM1.skin"
+		"char\C_DS_GB2\PARTS\C_DS_GB2_HM2.skin"
+		END
+
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_DS_GB1\C_DS_GB_Ragdoll.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DS_GB2_W13.skin"
+		END
+END
+
+UNIT_NAME "C_DS_GB2_AR"
+
+	"Bip01 Head"
+		PARTS_TYPE		1
+		PARTS_GROUP		2
+		SIMULATION_PARTS	0
+		"char\C_DS_GB2\PARTS\C_DS_GB2_HM1.skin"
+		"char\C_DS_GB2\PARTS\C_DS_GB2_HM2.skin"
+		END
+
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_DS_GB1\C_DS_GB_Ragdoll.txt"
+		END
+
+	"Dummy_WP_L"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DS_GB1_WB1.skin"
+		"weapons\C_DS_GB1_WB2.skin"
+		END
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		2
+		SIMULATION_PARTS	0
+		"weapons\C_DS_GB2_W11.skin"
+		"weapons\C_DS_GB2_W12.skin"
+		"weapons\C_DS_GB2_W13.skin"
+		END
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		3
+		SIMULATION_PARTS	0
+		"weapons\C_DS_GB1_WA1.skin"
+		END
+	"Dummy_WP_R"
+		PARTS_TYPE		3
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DS_GB1_WA2.skin"
+		END
+END
+
+UNIT_NAME "C_LN_BA1"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	1
+		"char\C_LN_BA1\PH_PARTS\C_LN_BA1_HAIR.SKIN"
+		END
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_LS_SL1\C_LS_SL_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LN_BA_W1.skin"
+		END
+
+	"Dummy_WP_L"
+		PARTS_TYPE		3
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LN_BA_WA1.skin"
+		END
+END
+
+UNIT_NAME "C_LS_WR1_OH"
+	"Bip01 Head"
+		PARTS_TYPE		1
+		PARTS_GROUP		2
+		SIMULATION_PARTS	0
+		"char\C_LS_WR1\PARTS\C_LS_WR1_HM1.skin"
+		"char\C_LS_WR1\PARTS\C_LS_WR1_HM2.skin"
+		"char\C_LS_WR1\PARTS\C_LS_WR1_HM3.skin"
+		END
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_LS_SL1\C_LS_SL_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LS_SL1_WS1.skin"
+		"weapons\C_LS_SL1_WS2.skin"
+		"weapons\C_LS_SL1_WS3.skin"
+		END
+END
+UNIT_NAME "C_LS_WR1_TH"
+	"Bip01 Head"
+		PARTS_TYPE		1
+		PARTS_GROUP		2
+		SIMULATION_PARTS	0
+		"char\C_LS_WR1\PARTS\C_LS_WR1_HM1.skin"
+		"char\C_LS_WR1\PARTS\C_LS_WR1_HM2.skin"
+		"char\C_LS_WR1\PARTS\C_LS_WR1_HM3.skin"
+		END
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_LS_SL1\C_LS_SL_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LS_WR1_W1.SKIN"
+		"weapons\C_LS_WR1_W2.SKIN"
+		"weapons\C_LS_WR1_W3.SKIN"
+		END
+END
+
+UNIT_NAME "C_DS_LZ1"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_DS_LZ1\C_DS_LZ_Ragdoll.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DS_LZ1_W12.skin"
+		END
+END
+
+UNIT_NAME "C_DS_LZ2"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_DS_LZ1\C_DS_LZ_Ragdoll.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DS_LZ1_W13.skin"		
+		END
+END
+
+UNIT_NAME "C_DS_LZ3"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_DS_LZ1\C_DS_LZ_Ragdoll.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DS_LZ1_W11.skin"
+		END
+END
+
+UNIT_NAME "C_LS_EM1"
+
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_DS_KR1\C_DS_KR_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_L"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LS_EM_W1.skin"
+		"weapons\C_LS_EM_W2.skin"
+		END
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		2
+		SIMULATION_PARTS	0
+		"weapons\C_LS_AR1_WA1.skin"
+		END
+	"Dummy_WP_R"
+		PARTS_TYPE		3
+		PARTS_GROUP		3
+		SIMULATION_PARTS	0
+		"weapons\C_LS_AR1_WA2.skin"
+		END
+END
+
+UNIT_NAME "C_DS_KR1"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_DS_KR1\C_DS_KR_RAGDOLL.txt"
+		END
+	"Bip01 Head"
+		PARTS_TYPE		1
+		PARTS_GROUP		2
+		SIMULATION_PARTS	0
+		"char\C_DS_KR1\Parts\C_DS_KR1_HM1.SKIN"
+		"char\C_DS_KR1\Parts\C_DS_KR1_HM2.SKIN"
+		"char\C_DS_KR1\Parts\C_DS_KR1_HM3.SKIN"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DS_KR1_W11.skin"
+		"weapons\C_DS_KR1_W12.skin"
+		"weapons\C_DS_KR1_W13.skin"
+		"weapons\C_DS_KR1_W14.skin"
+		END
+END
+
+UNIT_NAME "C_DS_KR2"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_DS_KR1\C_DS_KR_RAGDOLL.txt"
+		END
+
+	"Bip01 Head"
+		PARTS_TYPE		1
+		PARTS_GROUP		2
+		SIMULATION_PARTS	0
+		"char\C_DS_KR2\Parts\C_DS_KR2_HM1.SKIN"
+		"char\C_DS_KR2\Parts\C_DS_KR2_HM2.SKIN"
+		"char\C_DS_KR2\Parts\C_DS_KR2_HM3.SKIN"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DS_KR1_W13.skin"
+		"weapons\C_DS_KR1_W14.skin"
+		END
+END
+
+UNIT_NAME "C_DN_OC1"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_DS_OC1\C_DS_OC_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DN_OC1_W1.skin"
+		END
+END
+
+UNIT_NAME "C_DS_EF1_OH"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_DS_EF1\C_DS_EF_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DS_EF1_W11.skin"
+		END
+END
+
+UNIT_NAME "C_LN_CL1"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	1
+		"char\C_LN_CL1\PH_PARTS\C_LN_CL_SKIRT.SKIN"
+		END
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	2
+		"char\C_LN_CL1\PH_PARTS\C_LN_CL_Collision.txt"
+		END
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LS_SL1_WS1.skin"
+		"weapons\C_LS_SL1_WS2.skin"
+		"weapons\C_LS_SL1_WS3.skin"
+		END
+END
+
+UNIT_NAME "C_LN_EF1"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	1
+		"char\C_LN_EF1\PH_PARTS\C_LN_EF1_HAIR.SKIN"
+		"char\C_LN_EF1\PH_PARTS\C_LN_EF1_CLOTH.SKIN"
+		END
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	2
+		"char\C_LN_EF1\PH_PARTS\C_LN_EF1_Collision.txt"
+		END
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LN_EF_W1.skin"
+		END
+	"Dummy_WP_L"
+		PARTS_TYPE		2
+		PARTS_GROUP		2
+		SIMULATION_PARTS	0
+		"weapons\C_LN_EF_WA1.skin"
+		END
+	"Dummy_WP_L"
+		PARTS_TYPE		3
+		PARTS_GROUP		3
+		SIMULATION_PARTS	0
+		"weapons\C_LN_EF_WA2.skin"
+		END
+END
+
+UNIT_NAME "C_DN_GT5"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	1
+		"char\C_DN_GT5\PH_PARTS\C_DN_GT5_HAIR.SKIN"
+		END
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DS_GB2_W11.skin"
+		END
+END
+
+UNIT_NAME "C_DN_DE1"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	1
+		"char\C_DN_DE1\PH_PARTS\C_DN_DE1_HAIR.SKIN"
+		"char\C_DN_DE1\PH_PARTS\C_DN_DE1_MANTLE.SKIN"
+		END
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	2
+		"char\C_DN_DE1\PH_PARTS\C_DN_DE1_Collision.txt"
+		END
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_DS_EF1\C_DS_EF_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DN_DE_W1.skin"
+		END
+END
+
+UNIT_NAME "C_DN_KT1"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	1
+		"char\C_DN_KT1\PH_PARTS\C_DN_KT1_CLOTH.SKIN"
+		"char\C_DN_KT1\PH_PARTS\C_DN_KT1_IN.SKIN"
+		END
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	2
+		"char\C_DN_KT1\PH_PARTS\C_DN_KT1_Collision.txt"
+		END
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_LS_SL1\C_LS_SL_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DN_KT_W1.skin"
+		END
+END
+
+UNIT_NAME "C_DN_GK1"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	1
+		"char\C_DN_GK1\PH_PARTS\C_DN_GK11_FUR.SKIN"
+		"char\C_DN_GK1\PH_PARTS\C_DN_GK11_MANTLE.SKIN"
+		"char\C_DN_GK1\PH_PARTS\C_DN_GK11_W.SKIN"
+		END
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	2
+		"char\C_DN_GK1\PH_PARTS\C_DN_GK11_Collision.txt"
+		END
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DN_GK1_W_R1.skin"
+		END
+
+	"Dummy_WP_L"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DN_GK1_W_L1.skin"
+		END
+END
+
+UNIT_NAME "C_DN_GK2"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	1
+		"char\C_DN_GK2\PH_PARTS\C_DN_GK2_CLOTH.SKIN"
+		END
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DN_GK2_W1.skin"
+		END
+
+END
+
+UNIT_NAME "C_DS_TR1"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	2
+		"char\C_DP_TR\PH_PARTS\C_DP_TR_Collision.txt"
+		END
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\P_MP_TR06_W.SKIN"
+		END
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		2
+		SIMULATION_PARTS	0
+		"weapons\P_PL_ET13_W1.SKIN"
+		END
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		3
+		SIMULATION_PARTS	0
+		"weapons\P_PL_ET14_W1.SKIN"
+		END
+END
+
+
+UNIT_NAME "C_LS_SL_EX1_OH"
+	"Bip01 Head"
+		PARTS_TYPE		1
+		PARTS_GROUP		2
+		SIMULATION_PARTS	0
+		"char\C_LS_SL_EX1\PARTS\C_LS_SL_EX1_HM1.skin"
+		"char\C_LS_SL_EX1\PARTS\C_LS_SL_EX1_HM2.skin"
+		"char\C_LS_SL_EX1\PARTS\C_LS_SL_EX1_HM3.skin"
+		END
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_LS_SL1\C_LS_SL_RAGDOLL.txt"
+		END
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LS_SL1_WS1.skin"
+		"weapons\C_LS_SL1_WS2.skin"
+		"weapons\C_LS_SL1_WS3.skin"
+		END
+END
+
+UNIT_NAME "C_LS_SL_EX2_OH"
+	
+	"Bip01 Head"
+		PARTS_TYPE		1
+		PARTS_GROUP		2
+		SIMULATION_PARTS	0
+		"char\C_LS_SL_EX2\PARTS\C_LS_SL_EX2_HM1.SKIN"
+		"char\C_LS_SL_EX2\PARTS\C_LS_SL_EX2_HM2.SKIN"
+		END
+
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_LS_SL1\C_LS_SL_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LS_SL1_WS1.skin"
+		"weapons\C_LS_SL1_WS2.skin"
+		"weapons\C_LS_SL1_WS3.skin"
+		END
+
+END
+
+UNIT_NAME "C_LS_SL_EX3_OH"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	1
+		"char\C_LS_SL_EX3\PH_PARTS\C_LS_SL_EX3_MANTLE.SKIN"	// A,B,C,D 는 프로그램에서 붙여준다
+		END
+
+	"Bip01 Head"
+		PARTS_TYPE		1
+		PARTS_GROUP		2
+		SIMULATION_PARTS	0
+		"char\C_LS_SL_EX3\PARTS\C_LS_SL_EX3_HM1.skin"
+		"char\C_LS_SL_EX3\PARTS\C_LS_SL_EX3_HM2.skin"
+		END
+
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_LS_SL1\C_LS_SL_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LS_SL1_WS1.skin"
+		"weapons\C_LS_SL1_WS2.skin"
+		"weapons\C_LS_SL1_WS3.skin"
+		END
+
+END
+
+UNIT_NAME "C_LS_SL_EX4_AR"
+	"Bip01 Head"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"char\C_LS_SL_EX4\PARTS\C_LS_SL_EX4_HM1.skin"
+		"char\C_LS_SL_EX4\PARTS\C_LS_SL_EX4_HM2.skin"
+		"char\C_LS_SL_EX4\PARTS\C_LS_SL_EX4_HM3.skin"
+		"char\C_LS_SL_EX4\PARTS\C_LS_SL_EX4_HM4.skin"
+		END
+
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_LS_SL1\C_LS_SL_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_L"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LS_AR1_WB1.skin"
+		"weapons\C_LS_AR1_WB2.skin"
+		END
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		2
+		SIMULATION_PARTS	0
+		"weapons\C_LS_AR1_WD1.skin"
+		"weapons\C_LS_AR1_WD2.skin"
+		END
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		3
+		SIMULATION_PARTS	0
+		"weapons\C_LS_AR1_WA1.skin"
+		END
+	"Dummy_WP_R"
+		PARTS_TYPE		3
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_LS_AR1_WA2.skin"
+		END
+END
+
+UNIT_NAME "C_DS_OC3"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_DS_OC1\C_DS_OC_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DS_OC1_W13.skin"
+		END
+END
+
+UNIT_NAME "C_DS_OC9"
+	"None"
+		PARTS_TYPE		1
+		PARTS_GROUP		1
+		SIMULATION_PARTS	3
+		"char\C_DS_OC1\C_DS_OC_RAGDOLL.txt"
+		END
+
+	"Dummy_WP_R"
+		PARTS_TYPE		2
+		PARTS_GROUP		1
+		SIMULATION_PARTS	0
+		"weapons\C_DP_OC1_W14.skin"
+		"weapons\C_DP_OC1_W15.skin"
+		"weapons\C_DP_OC1_W16.skin"
+		END
+END
+
+UNIT_NAME "C_DN_9K1"
+END
+

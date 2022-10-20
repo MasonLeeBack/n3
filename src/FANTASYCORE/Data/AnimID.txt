@@ -1,0 +1,7 @@
+// This file make by AniTool
+
+"Non"		-1
+"Stand"		0
+"Attack"	1
+"Walk"		2
+"Run"		3

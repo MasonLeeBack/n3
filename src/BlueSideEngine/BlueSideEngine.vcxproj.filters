@@ -1,0 +1,949 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Kernel">
+      <UniqueIdentifier>{43aba49a-8c6f-49e1-be2e-1816b57300a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stream">
+      <UniqueIdentifier>{409f16ed-15aa-4ff9-a53c-0e12224e6d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Material">
+      <UniqueIdentifier>{06351fac-336d-4889-afd4-25df4178b8ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation">
+      <UniqueIdentifier>{29b2d897-388b-4767-acb8-df3412d7e036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation\Physics">
+      <UniqueIdentifier>{b3b1434f-6e6c-43fb-aecd-4609c2ca0057}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation\RealTimeMovie">
+      <UniqueIdentifier>{c4745ed4-d9af-4d58-9499-249e04df11d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation\RealTimeMovie\RMDataPackage">
+      <UniqueIdentifier>{5beb20cd-b24e-4ede-bf1f-251b9dd1c404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation\RealTimeMovie\RMDataPackage\RMObjects">
+      <UniqueIdentifier>{be7e3b6c-dcbf-4d51-8a40-bd08343dc56c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{245639a9-5a16-4f32-b4fc-fbfd88558d04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Particle">
+      <UniqueIdentifier>{0781a5dc-d543-4514-bfa4-612fb419cace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FX Module">
+      <UniqueIdentifier>{24db568d-dfd7-4811-a35f-ecef6a323aae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FX Module\Table">
+      <UniqueIdentifier>{cfaceb87-b290-4a85-ad75-9d6b8825bc1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World">
+      <UniqueIdentifier>{1f932aa4-d353-4445-9697-88448c168d72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interface">
+      <UniqueIdentifier>{e8efae2e-2fcd-430a-8a43-84a9f8071385}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MGS">
+      <UniqueIdentifier>{347a8313-7cca-4a6d-ad39-dcdcb2611f70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{ca921ca1-84f3-4af9-a4e8-cc4d4a224167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser_Util">
+      <UniqueIdentifier>{4ecc6450-2ad5-4080-901d-025263ee0c8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DX9_Util">
+      <UniqueIdentifier>{497cd227-b25f-4d5b-85b0-a45480604bda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlib">
+      <UniqueIdentifier>{255408e8-80cf-4a65-ad78-d3dbfa8f59a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ms">
+      <UniqueIdentifier>{4051aeb9-dc67-416f-813b-e6736b507970}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="3DDevice.cpp">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="BsBillboardMgr.cpp">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="BsBlockAllocator.cpp">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="BsCamera.cpp">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="BsConsole.cpp">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="BsCustomRender.cpp">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="BsDebugBreak.cpp">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="BsFileIO.cpp">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="BsGenerateTexture.cpp">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="BsImageProcess.cpp">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="BsInstancingMgr.cpp">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="BsKernel.cpp">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="BsMem.cpp">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="BsMemOverrides.cpp">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="BsMemTracker.cpp">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="BsOffScreenMgr.cpp">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="BsShadowMgr.cpp">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="BsShadowVolumeMgr.cpp">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="BsSkyBoxObject.cpp">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="BsMesh.cpp">
+      <Filter>Source Files\Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="BsPhysiqueSubMesh.cpp">
+      <Filter>Source Files\Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="BsStream.cpp">
+      <Filter>Source Files\Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="BsStringPool.cpp">
+      <Filter>Source Files\Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="BsSubMesh.cpp">
+      <Filter>Source Files\Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="BsImplMaterial.cpp">
+      <Filter>Source Files\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="BsLightObject.cpp">
+      <Filter>Source Files\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="BsMaterial.cpp">
+      <Filter>Source Files\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="BsSkin.cpp">
+      <Filter>Source Files\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="BsTexture.cpp">
+      <Filter>Source Files\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="BsAni.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="BsAniCache.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="BsAniObject.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="BsBone.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="BsObject.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="BsSaveMatrix.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="BsClothObject.cpp">
+      <Filter>Source Files\Animation\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="BsPhysicsMgr.cpp">
+      <Filter>Source Files\Animation\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="BsPhysicsTrigger.cpp">
+      <Filter>Source Files\Animation\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="BsUserNxClass.cpp">
+      <Filter>Source Files\Animation\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="BsRealMovie.cpp">
+      <Filter>Source Files\Animation\RealTimeMovie</Filter>
+    </ClCompile>
+    <ClCompile Include="BsRealMovieFile.cpp">
+      <Filter>Source Files\Animation\RealTimeMovie</Filter>
+    </ClCompile>
+    <ClCompile Include="BsRealMovieObject.cpp">
+      <Filter>Source Files\Animation\RealTimeMovie\RMDataPackage</Filter>
+    </ClCompile>
+    <ClCompile Include="BsRealMoviePackage.cpp">
+      <Filter>Source Files\Animation\RealTimeMovie\RMDataPackage</Filter>
+    </ClCompile>
+    <ClCompile Include="BsRealMovieAct.cpp">
+      <Filter>Source Files\Animation\RealTimeMovie\RMDataPackage\RMObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="BsRealMovieBone.cpp">
+      <Filter>Source Files\Animation\RealTimeMovie\RMDataPackage\RMObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="BsRealMovieCam.cpp">
+      <Filter>Source Files\Animation\RealTimeMovie\RMDataPackage\RMObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="BsRealMovieEffect.cpp">
+      <Filter>Source Files\Animation\RealTimeMovie\RMDataPackage\RMObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="BsRealMovieFace.cpp">
+      <Filter>Source Files\Animation\RealTimeMovie\RMDataPackage\RMObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="BsRealMovieLip.cpp">
+      <Filter>Source Files\Animation\RealTimeMovie\RMDataPackage\RMObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="BsRealMovieWave.cpp">
+      <Filter>Source Files\Animation\RealTimeMovie\RMDataPackage\RMObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="BsSinTable.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="bstreamext.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="BsUtil.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CrossVector.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameChecker.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="BsParticle.cpp">
+      <Filter>Source Files\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="BsFXElement.cpp">
+      <Filter>Source Files\FX Module</Filter>
+    </ClCompile>
+    <ClCompile Include="BsFXLoadObject.cpp">
+      <Filter>Source Files\FX Module</Filter>
+    </ClCompile>
+    <ClCompile Include="BsFXMeshElement.cpp">
+      <Filter>Source Files\FX Module</Filter>
+    </ClCompile>
+    <ClCompile Include="BsFXObject.cpp">
+      <Filter>Source Files\FX Module</Filter>
+    </ClCompile>
+    <ClCompile Include="BsFXParticleElement.cpp">
+      <Filter>Source Files\FX Module</Filter>
+    </ClCompile>
+    <ClCompile Include="BsFXPLElement.cpp">
+      <Filter>Source Files\FX Module</Filter>
+    </ClCompile>
+    <ClCompile Include="BsFXTable.cpp">
+      <Filter>Source Files\FX Module\Table</Filter>
+    </ClCompile>
+    <ClCompile Include="BsFXTableValue.cpp">
+      <Filter>Source Files\FX Module\Table</Filter>
+    </ClCompile>
+    <ClCompile Include="BsDecal.cpp">
+      <Filter>Source Files\World</Filter>
+    </ClCompile>
+    <ClCompile Include="BsHFWorld.cpp">
+      <Filter>Source Files\World</Filter>
+    </ClCompile>
+    <ClCompile Include="BsLODWorld.cpp">
+      <Filter>Source Files\World</Filter>
+    </ClCompile>
+    <ClCompile Include="BsTerrainZone.cpp">
+      <Filter>Source Files\World</Filter>
+    </ClCompile>
+    <ClCompile Include="BsWater.cpp">
+      <Filter>Source Files\World</Filter>
+    </ClCompile>
+    <ClCompile Include="BsWaterObject.cpp">
+      <Filter>Source Files\World</Filter>
+    </ClCompile>
+    <ClCompile Include="BsWorld.cpp">
+      <Filter>Source Files\World</Filter>
+    </ClCompile>
+    <ClCompile Include="BsKernel_ui.cpp">
+      <Filter>Source Files\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="BsMoviePlayer.cpp">
+      <Filter>Source Files\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="BsUIBase.cpp">
+      <Filter>Source Files\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="BsUiClick.cpp">
+      <Filter>Source Files\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="BsUiMovieTexture.cpp">
+      <Filter>Source Files\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="MGSToolbox\Console.cpp">
+      <Filter>Source Files\MGS</Filter>
+    </ClCompile>
+    <ClCompile Include="MGSToolbox\DebugCommand.cpp">
+      <Filter>Source Files\MGS</Filter>
+    </ClCompile>
+    <ClCompile Include="MGSToolbox\DebugConsole.cpp">
+      <Filter>Source Files\MGS</Filter>
+    </ClCompile>
+    <ClCompile Include="MGSToolbox\DebugMenu.cpp">
+      <Filter>Source Files\MGS</Filter>
+    </ClCompile>
+    <ClCompile Include="MGSToolbox\DebugValue.cpp">
+      <Filter>Source Files\MGS</Filter>
+    </ClCompile>
+    <ClCompile Include="MGSToolbox\GenericCall.cpp">
+      <Filter>Source Files\MGS</Filter>
+    </ClCompile>
+    <ClCompile Include="MGSToolbox\GPUStateSave.cpp">
+      <Filter>Source Files\MGS</Filter>
+    </ClCompile>
+    <ClCompile Include="MGSToolbox\InputHook.cpp">
+      <Filter>Source Files\MGS</Filter>
+    </ClCompile>
+    <ClCompile Include="MGSToolbox\MGSToolbox.cpp">
+      <Filter>Source Files\MGS</Filter>
+    </ClCompile>
+    <ClCompile Include="MGSToolbox\Profiler.cpp">
+      <Filter>Source Files\MGS</Filter>
+    </ClCompile>
+    <ClCompile Include="MGSToolbox\Shaders.cpp">
+      <Filter>Source Files\MGS</Filter>
+    </ClCompile>
+    <ClCompile Include="MGSToolbox\SimpleFont.cpp">
+      <Filter>Source Files\MGS</Filter>
+    </ClCompile>
+    <ClCompile Include="MGSToolbox\SmartTimer.cpp">
+      <Filter>Source Files\MGS</Filter>
+    </ClCompile>
+    <ClCompile Include="MGSToolbox\TextInput.cpp">
+      <Filter>Source Files\MGS</Filter>
+    </ClCompile>
+    <ClCompile Include="MGSToolbox\TextMatch.cpp">
+      <Filter>Source Files\MGS</Filter>
+    </ClCompile>
+    <ClCompile Include="MGSToolbox\Utils.cpp">
+      <Filter>Source Files\MGS</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\DistVec3Lin3.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\Frustum.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\IntBox3Frustum.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\IntLin3Box3.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\IntSphLin3.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser_Util\XMLEngine.cpp">
+      <Filter>Parser_Util</Filter>
+    </ClCompile>
+    <ClCompile Include="DX9_Util\AtgFont.cpp">
+      <Filter>DX9_Util</Filter>
+    </ClCompile>
+    <ClCompile Include="DX9_Util\AtgInput.cpp">
+      <Filter>DX9_Util</Filter>
+    </ClCompile>
+    <ClCompile Include="DX9_Util\AtgPostProcess.cpp">
+      <Filter>DX9_Util</Filter>
+    </ClCompile>
+    <ClCompile Include="DX9_Util\AtgResource.cpp">
+      <Filter>DX9_Util</Filter>
+    </ClCompile>
+    <ClCompile Include="DX9_Util\AtgUtil.cpp">
+      <Filter>DX9_Util</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\adler32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\compress.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\crc32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\deflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzio.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\infback.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inffast.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inftrees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\trees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\uncompr.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\zlibDecode.cpp">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\zutil.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Ms\BsClipTest.cpp">
+      <Filter>ms</Filter>
+    </ClCompile>
+    <ClCompile Include="Ms\CBoundingBox.cpp">
+      <Filter>ms</Filter>
+    </ClCompile>
+    <ClCompile Include="Ms\CBoundingBoxManager.cpp">
+      <Filter>ms</Filter>
+    </ClCompile>
+    <ClCompile Include="Ms\CClipTest.cpp">
+      <Filter>ms</Filter>
+    </ClCompile>
+    <ClCompile Include="Ms\xl.cpp">
+      <Filter>ms</Filter>
+    </ClCompile>
+    <ClCompile Include="Ms\xlCamera.cpp">
+      <Filter>ms</Filter>
+    </ClCompile>
+    <ClCompile Include="Ms\xlCameraObject.cpp">
+      <Filter>ms</Filter>
+    </ClCompile>
+    <ClCompile Include="Ms\xlCube.cpp">
+      <Filter>ms</Filter>
+    </ClCompile>
+    <ClCompile Include="Ms\xlFile.cpp">
+      <Filter>ms</Filter>
+    </ClCompile>
+    <ClCompile Include="Ms\xlFrustum.cpp">
+      <Filter>ms</Filter>
+    </ClCompile>
+    <ClCompile Include="Ms\xlGrid.cpp">
+      <Filter>ms</Filter>
+    </ClCompile>
+    <ClCompile Include="Ms\xlHexahedron.cpp">
+      <Filter>ms</Filter>
+    </ClCompile>
+    <ClCompile Include="Ms\xlLine.cpp">
+      <Filter>ms</Filter>
+    </ClCompile>
+    <ClCompile Include="Ms\xlMultiRenderTexture.cpp">
+      <Filter>ms</Filter>
+    </ClCompile>
+    <ClCompile Include="Ms\xlPrimitiveBase.cpp">
+      <Filter>ms</Filter>
+    </ClCompile>
+    <ClCompile Include="Ms\xlRectangle.cpp">
+      <Filter>ms</Filter>
+    </ClCompile>
+    <ClCompile Include="Ms\xlRenderTexture.cpp">
+      <Filter>ms</Filter>
+    </ClCompile>
+    <ClCompile Include="Ms\xlSprite.cpp">
+      <Filter>ms</Filter>
+    </ClCompile>
+    <ClCompile Include="Ms\xlSquare.cpp">
+      <Filter>ms</Filter>
+    </ClCompile>
+    <ClCompile Include="Ms\xlVertexElement.cpp">
+      <Filter>ms</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="3DDevice.h">
+      <Filter>Source Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="BsBillboardMgr.h">
+      <Filter>Source Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="BsBlockAllocator.h">
+      <Filter>Source Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="BsCamera.h">
+      <Filter>Source Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="BsCommon.h">
+      <Filter>Source Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="BsConsole.h">
+      <Filter>Source Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="BsCustomRender.h">
+      <Filter>Source Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="BsDebugBreak.h">
+      <Filter>Source Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="BsDmAllocator.h">
+      <Filter>Source Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="BsFileIO.h">
+      <Filter>Source Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="BsGenerateTexture.h">
+      <Filter>Source Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="BsImageProcess.h">
+      <Filter>Source Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="BsInstancingMgr.h">
+      <Filter>Source Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="BsKernel.h">
+      <Filter>Source Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="bsmem.h">
+      <Filter>Source Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="BsMemOverrides.h">
+      <Filter>Source Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="BsMemSystem.h">
+      <Filter>Source Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="BsMemTracker.h">
+      <Filter>Source Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="BsOffScreenMgr.h">
+      <Filter>Source Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="BsShadowMgr.h">
+      <Filter>Source Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="BsShadowVolumeMgr.h">
+      <Filter>Source Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="BsSkyBoxObject.h">
+      <Filter>Source Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="SemanticsDefine.h">
+      <Filter>Source Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="BsMesh.h">
+      <Filter>Source Files\Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="BsPhysiqueSubMesh.h">
+      <Filter>Source Files\Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="BsStream.h">
+      <Filter>Source Files\Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="BsStringPool.h">
+      <Filter>Source Files\Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="BsSubMesh.h">
+      <Filter>Source Files\Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="BsImplMaterial.h">
+      <Filter>Source Files\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="BsLightObject.h">
+      <Filter>Source Files\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="BsMaterial.h">
+      <Filter>Source Files\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="BsSkin.h">
+      <Filter>Source Files\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="BsTexture.h">
+      <Filter>Source Files\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="BsAni.h">
+      <Filter>Source Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="BsAniCache.h">
+      <Filter>Source Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="BsAniObject.h">
+      <Filter>Source Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="BsBone.h">
+      <Filter>Source Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="BsObject.h">
+      <Filter>Source Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="BsSaveMatrix.h">
+      <Filter>Source Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="BsClothObject.h">
+      <Filter>Source Files\Animation\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="BsPhysicsBase.h">
+      <Filter>Source Files\Animation\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="BsPhysicsMgr.h">
+      <Filter>Source Files\Animation\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="BsPhysicsTrigger.h">
+      <Filter>Source Files\Animation\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="BsUserNxClass.h">
+      <Filter>Source Files\Animation\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="BsRealMovie.h">
+      <Filter>Source Files\Animation\RealTimeMovie</Filter>
+    </ClInclude>
+    <ClInclude Include="BsRealMovieFile.h">
+      <Filter>Source Files\Animation\RealTimeMovie</Filter>
+    </ClInclude>
+    <ClInclude Include="BsRealMovieConst.h">
+      <Filter>Source Files\Animation\RealTimeMovie\RMDataPackage</Filter>
+    </ClInclude>
+    <ClInclude Include="BsRealMovieMsg.h">
+      <Filter>Source Files\Animation\RealTimeMovie\RMDataPackage</Filter>
+    </ClInclude>
+    <ClInclude Include="BsRealMovieObject.h">
+      <Filter>Source Files\Animation\RealTimeMovie\RMDataPackage</Filter>
+    </ClInclude>
+    <ClInclude Include="BsRealMoviePackage.h">
+      <Filter>Source Files\Animation\RealTimeMovie\RMDataPackage</Filter>
+    </ClInclude>
+    <ClInclude Include="BsRealMovieUtil.h">
+      <Filter>Source Files\Animation\RealTimeMovie\RMDataPackage</Filter>
+    </ClInclude>
+    <ClInclude Include="BsRealMovieAct.h">
+      <Filter>Source Files\Animation\RealTimeMovie\RMDataPackage\RMObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="BsRealMovieBone.h">
+      <Filter>Source Files\Animation\RealTimeMovie\RMDataPackage\RMObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="BsRealMovieCam.h">
+      <Filter>Source Files\Animation\RealTimeMovie\RMDataPackage\RMObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="BsRealMovieEffect.h">
+      <Filter>Source Files\Animation\RealTimeMovie\RMDataPackage\RMObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="BsRealMovieFace.h">
+      <Filter>Source Files\Animation\RealTimeMovie\RMDataPackage\RMObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="BsRealMovieLip.h">
+      <Filter>Source Files\Animation\RealTimeMovie\RMDataPackage\RMObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="BsRealMovieWave.h">
+      <Filter>Source Files\Animation\RealTimeMovie\RMDataPackage\RMObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="BsMath.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="BsSinTable.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="bstreamext.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="BsUtil.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CrossVector.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameChecker.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPoolMng.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="StreamBuf.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="TnTstring.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="BsParticle.h">
+      <Filter>Source Files\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="BsFXElement.h">
+      <Filter>Source Files\FX Module</Filter>
+    </ClInclude>
+    <ClInclude Include="BsFXLoadObject.h">
+      <Filter>Source Files\FX Module</Filter>
+    </ClInclude>
+    <ClInclude Include="BsFXMeshElement.h">
+      <Filter>Source Files\FX Module</Filter>
+    </ClInclude>
+    <ClInclude Include="BsFXObject.h">
+      <Filter>Source Files\FX Module</Filter>
+    </ClInclude>
+    <ClInclude Include="BsFXParticleElement.h">
+      <Filter>Source Files\FX Module</Filter>
+    </ClInclude>
+    <ClInclude Include="BsFXPLElement.h">
+      <Filter>Source Files\FX Module</Filter>
+    </ClInclude>
+    <ClInclude Include="BsFXTable.h">
+      <Filter>Source Files\FX Module\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="BsFXTableValue.h">
+      <Filter>Source Files\FX Module\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="BsDecal.h">
+      <Filter>Source Files\World</Filter>
+    </ClInclude>
+    <ClInclude Include="BsHFWorld.h">
+      <Filter>Source Files\World</Filter>
+    </ClInclude>
+    <ClInclude Include="BsLODWorld.h">
+      <Filter>Source Files\World</Filter>
+    </ClInclude>
+    <ClInclude Include="BsTerrainZone.h">
+      <Filter>Source Files\World</Filter>
+    </ClInclude>
+    <ClInclude Include="BsWater.h">
+      <Filter>Source Files\World</Filter>
+    </ClInclude>
+    <ClInclude Include="BsWaterObject.h">
+      <Filter>Source Files\World</Filter>
+    </ClInclude>
+    <ClInclude Include="BsWorld.h">
+      <Filter>Source Files\World</Filter>
+    </ClInclude>
+    <ClInclude Include="BsMoviePlayer.h">
+      <Filter>Source Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="BsUIBase.h">
+      <Filter>Source Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="BsUiClick.h">
+      <Filter>Source Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="BsUiMovieTexture.h">
+      <Filter>Source Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="MGSToolbox\Console.h">
+      <Filter>Source Files\MGS</Filter>
+    </ClInclude>
+    <ClInclude Include="MGSToolbox\DebugCommand.h">
+      <Filter>Source Files\MGS</Filter>
+    </ClInclude>
+    <ClInclude Include="MGSToolbox\DebugConsole.h">
+      <Filter>Source Files\MGS</Filter>
+    </ClInclude>
+    <ClInclude Include="MGSToolbox\DebugMenu.h">
+      <Filter>Source Files\MGS</Filter>
+    </ClInclude>
+    <ClInclude Include="MGSToolbox\DebugValue.h">
+      <Filter>Source Files\MGS</Filter>
+    </ClInclude>
+    <ClInclude Include="MGSToolbox\GenericCall.h">
+      <Filter>Source Files\MGS</Filter>
+    </ClInclude>
+    <ClInclude Include="MGSToolbox\GPUStateSave.h">
+      <Filter>Source Files\MGS</Filter>
+    </ClInclude>
+    <ClInclude Include="MGSToolbox\InputHook.h">
+      <Filter>Source Files\MGS</Filter>
+    </ClInclude>
+    <ClInclude Include="MGSToolbox\MGSToolbox.h">
+      <Filter>Source Files\MGS</Filter>
+    </ClInclude>
+    <ClInclude Include="MGSToolbox\MGSToolboxConfig.h">
+      <Filter>Source Files\MGS</Filter>
+    </ClInclude>
+    <ClInclude Include="MGSToolbox\Profiler.h">
+      <Filter>Source Files\MGS</Filter>
+    </ClInclude>
+    <ClInclude Include="MGSToolbox\Shaders.h">
+      <Filter>Source Files\MGS</Filter>
+    </ClInclude>
+    <ClInclude Include="MGSToolbox\SimpleFont.h">
+      <Filter>Source Files\MGS</Filter>
+    </ClInclude>
+    <ClInclude Include="MGSToolbox\SmartTimer.h">
+      <Filter>Source Files\MGS</Filter>
+    </ClInclude>
+    <ClInclude Include="MGSToolbox\TextInput.h">
+      <Filter>Source Files\MGS</Filter>
+    </ClInclude>
+    <ClInclude Include="MGSToolbox\TextMatch.h">
+      <Filter>Source Files\MGS</Filter>
+    </ClInclude>
+    <ClInclude Include="MGSToolbox\Utils.h">
+      <Filter>Source Files\MGS</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\Box3.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\DistVec3Lin3.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\Frustum.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\IntBox3Frustum.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\IntLin3Box3.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\IntSphLin3.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\Ray3.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\Sphere.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser_Util\XMLEngine.h">
+      <Filter>Parser_Util</Filter>
+    </ClInclude>
+    <ClInclude Include="DX9_Util\AtgFont.h">
+      <Filter>DX9_Util</Filter>
+    </ClInclude>
+    <ClInclude Include="DX9_Util\AtgInput.h">
+      <Filter>DX9_Util</Filter>
+    </ClInclude>
+    <ClInclude Include="DX9_Util\AtgPostProcess.h">
+      <Filter>DX9_Util</Filter>
+    </ClInclude>
+    <ClInclude Include="DX9_Util\AtgResource.h">
+      <Filter>DX9_Util</Filter>
+    </ClInclude>
+    <ClInclude Include="DX9_Util\AtgUtil.h">
+      <Filter>DX9_Util</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\crc32.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\deflate.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inffast.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inffixed.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inflate.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inftrees.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\trees.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zconf.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zconf.in.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zlib.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zlibDecode.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zutil.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Ms\BsClipTest.h">
+      <Filter>ms</Filter>
+    </ClInclude>
+    <ClInclude Include="Ms\CBoundingBox.h">
+      <Filter>ms</Filter>
+    </ClInclude>
+    <ClInclude Include="Ms\CBoundingBoxManager.h">
+      <Filter>ms</Filter>
+    </ClInclude>
+    <ClInclude Include="Ms\CClipTest.h">
+      <Filter>ms</Filter>
+    </ClInclude>
+    <ClInclude Include="Ms\xl.h">
+      <Filter>ms</Filter>
+    </ClInclude>
+    <ClInclude Include="Ms\xlCamera.h">
+      <Filter>ms</Filter>
+    </ClInclude>
+    <ClInclude Include="Ms\xlCameraObject.h">
+      <Filter>ms</Filter>
+    </ClInclude>
+    <ClInclude Include="Ms\xlCommon.h">
+      <Filter>ms</Filter>
+    </ClInclude>
+    <ClInclude Include="Ms\xlCompatible.h">
+      <Filter>ms</Filter>
+    </ClInclude>
+    <ClInclude Include="Ms\xlCube.h">
+      <Filter>ms</Filter>
+    </ClInclude>
+    <ClInclude Include="Ms\xlFile.h">
+      <Filter>ms</Filter>
+    </ClInclude>
+    <ClInclude Include="Ms\xlFrustum.h">
+      <Filter>ms</Filter>
+    </ClInclude>
+    <ClInclude Include="Ms\xlGrid.h">
+      <Filter>ms</Filter>
+    </ClInclude>
+    <ClInclude Include="Ms\xlHexahedron.h">
+      <Filter>ms</Filter>
+    </ClInclude>
+    <ClInclude Include="Ms\xlLine.h">
+      <Filter>ms</Filter>
+    </ClInclude>
+    <ClInclude Include="Ms\xlMultiRenderTexture.h">
+      <Filter>ms</Filter>
+    </ClInclude>
+    <ClInclude Include="Ms\xlPrimitiveBase.h">
+      <Filter>ms</Filter>
+    </ClInclude>
+    <ClInclude Include="Ms\xlRectangle.h">
+      <Filter>ms</Filter>
+    </ClInclude>
+    <ClInclude Include="Ms\xlRenderTexture.h">
+      <Filter>ms</Filter>
+    </ClInclude>
+    <ClInclude Include="Ms\xlSprite.h">
+      <Filter>ms</Filter>
+    </ClInclude>
+    <ClInclude Include="Ms\xlSquare.h">
+      <Filter>ms</Filter>
+    </ClInclude>
+    <ClInclude Include="Ms\xlVertexElement.h">
+      <Filter>ms</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

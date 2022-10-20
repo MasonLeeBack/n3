@@ -1,0 +1,1600 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="LTCG|Win32">
+      <Configuration>LTCG</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="LTCG|x64">
+      <Configuration>LTCG</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RDebug|Win32">
+      <Configuration>RDebug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RDebug|x64">
+      <Configuration>RDebug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_FastCap|Win32">
+      <Configuration>Release_FastCap</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_FastCap|x64">
+      <Configuration>Release_FastCap</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_i|Win32">
+      <Configuration>Release_i</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_i|x64">
+      <Configuration>Release_i</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RESLISTGEN|Win32">
+      <Configuration>RESLISTGEN</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RESLISTGEN|x64">
+      <Configuration>RESLISTGEN</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RETAIL|Win32">
+      <Configuration>RETAIL</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RETAIL|x64">
+      <Configuration>RETAIL</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{D2539204-1815-4AF6-8606-A6DBF1AF7E0B}</ProjectGuid>
+    <RootNamespace>FantasyCore</RootNamespace>
+    <SccProjectName>"$/FantasyCore", HKBBAAAA</SccProjectName>
+    <SccAuxPath />
+    <SccLocalPath>..</SccLocalPath>
+    <SccProvider>MSSCCI:Microsoft Visual SourceSafe</SccProvider>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RETAIL|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RETAIL|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LTCG|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LTCG|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RDebug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RDebug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_i|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_i|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="..\..\packages\Microsoft.DXSDK.D3DX.9.29.952.8\build\native\Microsoft.DXSDK.D3DX.targets" Condition="Exists('..\..\packages\Microsoft.DXSDK.D3DX.9.29.952.8\build\native\Microsoft.DXSDK.D3DX.targets')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='RETAIL|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='RETAIL|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='LTCG|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='LTCG|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='RDebug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='RDebug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_i|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_i|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>17.0.32505.173</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)\BUILD\OUT\$(Configuration)_$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)\BUILD\INTERMEDIATE\$(ProjectName)_$(Configuration)_$(Platform)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>$(SolutionDir)\ThirdParty\Bink\Lib;$(SolutionDir)\ThirdParty\NovodeX\Physics\lib\win32\Release;$(SolutionDir)\ThirdParty\NovodeX\Cooking\lib\win32\Release;$(SolutionDir)\BUILD\OUT\$(Configuration)_$(Platform)\;$(SolutionDir)\BlueSideEngine\Out\Debug_PC;$(SolutionDir)\packages\Microsoft.DXSDK.D3DX.9.29.952.8\build\native\debug\lib\x86;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86)</LibraryPath>
+    <TargetName>$(ProjectName)_$(Configuration)_$(Platform)</TargetName>
+    <IncludePath>$(SolutionDir)\ThirdParty\Bink\Include;$(SolutionDir)\ThirdParty\NovodeX\Physics\Include;$(SolutionDir)\ThirdParty\NovodeX\Foundation\Include;$(SolutionDir)\ThirdParty\NovodeX\Cooking\Include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>$(SolutionDir)\ThirdParty\Bink\Lib;$(SolutionDir)\ThirdParty\NovodeX\Physics\lib\win32\Release;$(SolutionDir)\ThirdParty\NovodeX\Cooking\lib\win32\Release;$(SolutionDir)\BlueSideEngine\Out\Debug_PC;$(SolutionDir)\packages\Microsoft.DXSDK.D3DX.9.29.952.8\build\native\debug\lib\x86;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86)</LibraryPath>
+    <IncludePath>$(SolutionDir)\ThirdParty\Bink\Include;$(SolutionDir)\ThirdParty\NovodeX\Physics\Include;$(SolutionDir)\ThirdParty\NovodeX\Foundation\Include;$(SolutionDir)\ThirdParty\NovodeX\Cooking\Include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)\BUILD\OUT\$(Configuration)_$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)\BUILD\INTERMEDIATE\$(ProjectName)_$(Configuration)_$(Platform)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>$(SolutionDir)\ThirdParty\Bink\Lib;$(SolutionDir)\ThirdParty\NovodeX\Physics\lib\win32\Release;$(SolutionDir)\ThirdParty\NovodeX\Cooking\lib\win32\Release;$(SolutionDir)\BUILD\OUT\$(Configuration)_$(Platform)\;$(SolutionDir)\BlueSideEngine\Out\Release_PC;$(SolutionDir)\packages\Microsoft.DXSDK.D3DX.9.29.952.8\build\native\release\lib\x86;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86)</LibraryPath>
+    <TargetName>$(ProjectName)_$(Configuration)_$(Platform)</TargetName>
+    <IncludePath>$(SolutionDir)\ThirdParty\Bink\Include;$(SolutionDir)\ThirdParty\NovodeX\Physics\Include;$(SolutionDir)\ThirdParty\NovodeX\Foundation\Include;$(SolutionDir)\ThirdParty\NovodeX\Cooking\Include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>$(SolutionDir)\ThirdParty\Bink\Lib;$(SolutionDir)\ThirdParty\NovodeX\Physics\lib\win32\Release;$(SolutionDir)\ThirdParty\NovodeX\Cooking\lib\win32\Release;$(SolutionDir)\BlueSideEngine\Out\Release_PC;$(SolutionDir)\packages\Microsoft.DXSDK.D3DX.9.29.952.8\build\native\release\lib\x64;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86)</LibraryPath>
+    <IncludePath>$(SolutionDir)\ThirdParty\Bink\Include;$(SolutionDir)\ThirdParty\NovodeX\Physics\Include;$(SolutionDir)\ThirdParty\NovodeX\Foundation\Include;$(SolutionDir)\ThirdParty\NovodeX\Cooking\Include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_i|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_i|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RDebug|Win32'">
+    <OutDir>Out\RDebug_PC\</OutDir>
+    <IntDir>Out\RDebug_PC\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RDebug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LTCG|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LTCG|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RETAIL|Win32'">
+    <OutDir>$(SolutionDir)\BUILD\OUT\$(Configuration)_$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)\BUILD\INTERMEDIATE\$(ProjectName)_$(Configuration)_$(Platform)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>$(SolutionDir)\ThirdParty\Bink\Lib;$(SolutionDir)\ThirdParty\NovodeX\Physics\lib\win32\Release;$(SolutionDir)\ThirdParty\NovodeX\Cooking\lib\win32\Release;$(SolutionDir)\BUILD\OUT\$(Configuration)_$(Platform)\;$(SolutionDir)\BlueSideEngine\$(Configuration);$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86)</LibraryPath>
+    <TargetName>$(ProjectName)_$(Configuration)_$(Platform)</TargetName>
+    <IncludePath>$(SolutionDir)\ThirdParty\Bink\Include;$(SolutionDir)\ThirdParty\NovodeX\Physics\Include;$(SolutionDir)\ThirdParty\NovodeX\Foundation\Include;$(SolutionDir)\ThirdParty\NovodeX\Cooking\Include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RETAIL|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)\ThirdParty\Bink\Include;$(SolutionDir)\ThirdParty\NovodeX\Physics\Include;$(SolutionDir)\ThirdParty\NovodeX\Foundation\Include;$(SolutionDir)\ThirdParty\NovodeX\Cooking\Include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <LibraryPath>$(SolutionDir)\ThirdParty\Bink\Lib;$(SolutionDir)\ThirdParty\NovodeX\Physics\lib\win32\Release;$(SolutionDir)\ThirdParty\NovodeX\Cooking\lib\win32\Release;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.;Util;..\BlueSideEngine;..\BlueSideEngine\Collision;..\BlueSideEngine\Novodex\Cooking\include;..\BlueSideEngine\Novodex\Foundation\include;..\BlueSideEngine\Novodex\Physics\include;..\BlueSideEngine\ms;Interface;Trigger;.\BSui;.\BSui\Core;.\BSui\Custom;.\BSui\Control;.\Menu;.\Effect;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>binkw32.lib;NxPhysics.lib;NxCooking.lib;BlueSideEngineD.lib;d3d9.lib;d3dx9d.lib;dinput8.lib;dxguid.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)FantasyCore.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.;Util;..\BlueSideEngine;..\BlueSideEngine\Collision;..\BlueSideEngine\Novodex\Cooking\include;..\BlueSideEngine\Novodex\Foundation\include;..\BlueSideEngine\Novodex\Physics\include;..\BlueSideEngine\ms;Interface;Trigger;.\BSui;.\BSui\Core;.\BSui\Custom;.\BSui\Control;.\Menu;.\Effect;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>NxPhysics.lib;NxCooking.lib;BlueSideEngineD.lib;d3d9.lib;d3dx9d.lib;dinput8.lib;dxguid.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>Out\Debug_PC\FantasyCoreD.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)FantasyCore.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;Util;..\BlueSideEngine;..\BlueSideEngine\Collision;..\BlueSideEngine\Novodex\Foundation\include;..\BlueSideEngine\Novodex\Physics\include;..\BlueSideEngine\ms;Interface;Trigger;.\BSui;.\BSui\Core;.\BSui\Custom;.\BSui\Control;.\Menu;.\Effect;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/NODEFAULTLIB:LIBCMT %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>binkw32.lib;NxPhysics.lib;NxCooking.lib;msvcrt.lib;BlueSideEngine.lib;d3d9.lib;d3dx9.lib;dinput8.lib;dxguid.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <StackReserveSize>0</StackReserveSize>
+      <StackCommitSize>0</StackCommitSize>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;Util;..\BlueSideEngine;..\BlueSideEngine\Collision;..\BlueSideEngine\Novodex\Foundation\include;..\BlueSideEngine\Novodex\Physics\include;..\BlueSideEngine\ms;Interface;Trigger;.\BSui;.\BSui\Core;.\BSui\Custom;.\BSui\Control;.\Menu;.\Effect;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/NODEFAULTLIB:LIBCMT %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>NxPhysics.lib;NxCooking.lib;msvcrt.lib;BlueSideEngine.lib;d3d9.lib;d3dx9.lib;dinput8.lib;dxguid.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>Out\Release_PC\FantasyCore.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>0</StackReserveSize>
+      <StackCommitSize>0</StackCommitSize>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_i|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;Util;..\BlueSideEngine;..\BlueSideEngine\Collision;..\BlueSideEngine\Novodex\Foundation\include;..\BlueSideEngine\Novodex\Physics\include;..\BlueSideEngine\MS;Interface;Trigger;.\BSui;.\BSui\Core;.\BSui\Custom;.\BSui\Control;.\Menu;.\Effect;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/NODEFAULTLIB:LIBCMT %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dinput8.lib;dxguid.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>Out\Release_PC\FantasyCore.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_i|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;Util;..\BlueSideEngine;..\BlueSideEngine\Collision;..\BlueSideEngine\Novodex\Foundation\include;..\BlueSideEngine\Novodex\Physics\include;..\BlueSideEngine\MS;Interface;Trigger;.\BSui;.\BSui\Core;.\BSui\Custom;.\BSui\Control;.\Menu;.\Effect;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/NODEFAULTLIB:LIBCMT %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dinput8.lib;dxguid.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>Out\Release_PC\FantasyCore.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;Util;..\BlueSideEngine;..\BlueSideEngine\Collision;..\BlueSideEngine\Novodex\Foundation\include;..\BlueSideEngine\Novodex\Physics\include;..\BlueSideEngine\MS;Interface;Trigger;.\BSui;.\BSui\Core;.\BSui\Custom;.\BSui\Control;.\Menu;.\Effect;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/NODEFAULTLIB:LIBCMT %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dinput8.lib;dxguid.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>Out\Release_PC\FantasyCore.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;Util;..\BlueSideEngine;..\BlueSideEngine\Collision;..\BlueSideEngine\Novodex\Foundation\include;..\BlueSideEngine\Novodex\Physics\include;..\BlueSideEngine\MS;Interface;Trigger;.\BSui;.\BSui\Core;.\BSui\Custom;.\BSui\Control;.\Menu;.\Effect;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/NODEFAULTLIB:LIBCMT %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dinput8.lib;dxguid.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>Out\Release_PC\FantasyCore.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RDebug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.;Util;..\BlueSideEngine;..\BlueSideEngine\Collision;..\BlueSideEngine\Novodex\Foundation\include;..\BlueSideEngine\Novodex\Physics\include;..\BlueSideEngine\MS;Interface;Trigger;.\BSui;.\BSui\Core;.\BSui\Custom;.\BSui\Control;.\Menu;.\Effect;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/NODEFAULTLIB:LIBCMT %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dinput8.lib;dxguid.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>Out\RDebug_PC\FantasyCore.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences />
+      <EnableCOMDATFolding />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RDebug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.;Util;..\BlueSideEngine;..\BlueSideEngine\Collision;..\BlueSideEngine\Novodex\Foundation\include;..\BlueSideEngine\Novodex\Physics\include;..\BlueSideEngine\MS;Interface;Trigger;.\BSui;.\BSui\Core;.\BSui\Custom;.\BSui\Control;.\Menu;.\Effect;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/NODEFAULTLIB:LIBCMT %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dinput8.lib;dxguid.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>Out\RDebug_PC\FantasyCore.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>
+      </OptimizeReferences>
+      <EnableCOMDATFolding>
+      </EnableCOMDATFolding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='LTCG|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;Util;..\BlueSideEngine;..\BlueSideEngine\Collision;..\BlueSideEngine\Novodex\Foundation\include;..\BlueSideEngine\Novodex\Physics\include;..\BlueSideEngine\MS;Interface;Trigger;.\BSui;.\BSui\Core;.\BSui\Custom;.\BSui\Control;.\Menu;.\Effect;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/NODEFAULTLIB:LIBCMT %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dinput8.lib;dxguid.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>Out\Release_PC\FantasyCoreLTCG.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>0</StackReserveSize>
+      <StackCommitSize>0</StackCommitSize>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='LTCG|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;Util;..\BlueSideEngine;..\BlueSideEngine\Collision;..\BlueSideEngine\Novodex\Foundation\include;..\BlueSideEngine\Novodex\Physics\include;..\BlueSideEngine\MS;Interface;Trigger;.\BSui;.\BSui\Core;.\BSui\Custom;.\BSui\Control;.\Menu;.\Effect;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/NODEFAULTLIB:LIBCMT %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dinput8.lib;dxguid.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>Out\Release_PC\FantasyCoreLTCG.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>0</StackReserveSize>
+      <StackCommitSize>0</StackCommitSize>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RETAIL|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;Util;..\BlueSideEngine;..\BlueSideEngine\Collision;..\BlueSideEngine\Novodex\Foundation\include;..\BlueSideEngine\Novodex\Physics\include;..\BlueSideEngine\MS;Interface;Trigger;.\BSui;.\BSui\Core;.\BSui\Custom;.\BSui\Control;.\Menu;.\Effect;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>_PACKED_RESOURCE;_CRT_SECURE_NO_WARNINGS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/NODEFAULTLIB:LIBCMT %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>binkw32.lib;NxPhysics.lib;NxCooking.lib;msvcrt.lib;BlueSideEngine.lib;d3d9.lib;d3dx9.lib;dinput8.lib;dxguid.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <StackReserveSize>0</StackReserveSize>
+      <StackCommitSize>0</StackCommitSize>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RETAIL|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;Util;..\BlueSideEngine;..\BlueSideEngine\Collision;..\BlueSideEngine\Novodex\Foundation\include;..\BlueSideEngine\Novodex\Physics\include;..\BlueSideEngine\MS;Interface;Trigger;.\BSui;.\BSui\Core;.\BSui\Custom;.\BSui\Control;.\Menu;.\Effect;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/NODEFAULTLIB:LIBCMT %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>NxPhysics.lib;NxCooking.lib;d3d9.lib;d3dx9.lib;dinput8.lib;dxguid.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>Out\Release_PC\FantasyCoreLTCG.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>0</StackReserveSize>
+      <StackCommitSize>0</StackCommitSize>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;Util;..\BlueSideEngine;..\BlueSideEngine\Collision;..\BlueSideEngine\Novodex\Foundation\include;..\BlueSideEngine\Novodex\Physics\include;..\BlueSideEngine\ms;Interface;Trigger;.\BSui;.\BSui\Core;.\BSui\Custom;.\BSui\Control;.\Menu;.\Effect;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/NODEFAULTLIB:LIBCMT %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dinput8.lib;dxguid.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>Out\Release_PC\FantasyCore.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>0</StackReserveSize>
+      <StackCommitSize>0</StackCommitSize>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;Util;..\BlueSideEngine;..\BlueSideEngine\Collision;..\BlueSideEngine\Novodex\Foundation\include;..\BlueSideEngine\Novodex\Physics\include;..\BlueSideEngine\ms;Interface;Trigger;.\BSui;.\BSui\Core;.\BSui\Custom;.\BSui\Control;.\Menu;.\Effect;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/NODEFAULTLIB:LIBCMT %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dinput8.lib;dxguid.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>Out\Release_PC\FantasyCore.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>0</StackReserveSize>
+      <StackCommitSize>0</StackCommitSize>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ASData.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LTCG|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LTCG|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RDebug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RDebug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RETAIL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RETAIL|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_i|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_i|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Aspharr.cpp" />
+    <ClCompile Include="BSFileManager.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LTCG|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LTCG|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RDebug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RDebug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RETAIL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RETAIL|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_i|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_i|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="BsUi\BSuiDefine.cpp" />
+    <ClCompile Include="BSui\Control\BSuiButton.cpp" />
+    <ClCompile Include="BsUi\Control\BsUiImageCtrl.cpp" />
+    <ClCompile Include="BSui\Control\BSuiLayer.cpp" />
+    <ClCompile Include="BSui\Control\BSuiListBox.cpp" />
+    <ClCompile Include="BsUi\Control\BsUiListCtrl.cpp" />
+    <ClCompile Include="BSui\Control\BSuiSlider.cpp" />
+    <ClCompile Include="BSui\Control\BSuiText.cpp" />
+    <ClCompile Include="BsUi\Core\BSui.cpp" />
+    <ClCompile Include="BsUi\Core\BSuiLoader.cpp" />
+    <ClCompile Include="BsUi\Core\BSuiSkin.cpp" />
+    <ClCompile Include="BsUi\Core\BsUiStore.cpp" />
+    <ClCompile Include="BsUi\Core\BSuiSystem.cpp" />
+    <ClCompile Include="BsUi\Core\BsUiView.cpp" />
+    <ClCompile Include="BsUi\Core\BSuiWindow.cpp" />
+    <ClCompile Include="BsUi\Custom\BSuiClassIDManager.cpp" />
+    <ClCompile Include="BsUi\Custom\BsUiFont.cpp" />
+    <ClCompile Include="BsUi\Custom\BsUiFontAttrManager.cpp" />
+    <ClCompile Include="BsUi\Custom\BSuiGDISkin.cpp" />
+    <ClCompile Include="BsUi\Custom\BsUiGDIView.cpp" />
+    <ClCompile Include="BsUi\Custom\BsUiImageManager.cpp" />
+    <ClCompile Include="BsUi\Custom\BsUiUVManager.cpp" />
+    <ClCompile Include="CollisionMesh.cpp" />
+    <ClCompile Include="Dwingvatt.cpp" />
+    <ClCompile Include="DX_Util\AtgSignIn.cpp" />
+    <ClCompile Include="Effect\FcFxBase.cpp" />
+    <ClCompile Include="Effect\FcFXCastEarth.cpp" />
+    <ClCompile Include="Effect\FcFXDynamicFog.cpp" />
+    <ClCompile Include="Effect\FcFXEarthExplode.cpp" />
+    <ClCompile Include="Effect\FcFXLensFlare.cpp" />
+    <ClCompile Include="Effect\FcFXLightScattering.cpp" />
+    <ClCompile Include="Effect\FcFXLine.cpp" />
+    <ClCompile Include="Effect\FcFXManager.cpp" />
+    <ClCompile Include="Effect\FcFXMeteo.cpp" />
+    <ClCompile Include="Effect\FcFXScreenMotionBlur.cpp" />
+    <ClCompile Include="Effect\FcFXScreenWaterDrop.cpp" />
+    <ClCompile Include="Effect\FcFXSimplePlay.cpp" />
+    <ClCompile Include="Effect\FcFXSimpleTrail.cpp" />
+    <ClCompile Include="Effect\FcFXTidalWave.cpp" />
+    <ClCompile Include="Effect\FcFXTidalWave_Group.cpp" />
+    <ClCompile Include="Effect\FcFXTidalWave_Render.cpp" />
+    <ClCompile Include="Effect\FcFXWindExplode.cpp" />
+    <ClCompile Include="FantasyCore.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LTCG|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LTCG|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RDebug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RDebug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RETAIL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RETAIL|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_i|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_i|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="FcAbility1kArrow.cpp" />
+    <ClCompile Include="FcAbilityBase.cpp" />
+    <ClCompile Include="FcAbilityColumnOfWater.cpp" />
+    <ClCompile Include="FcAbilityEarth.cpp" />
+    <ClCompile Include="FcAbilityFire.cpp" />
+    <ClCompile Include="FcAbilityLight.cpp" />
+    <ClCompile Include="FcAbilityManager.cpp" />
+    <ClCompile Include="FcAbilityRedLight.cpp" />
+    <ClCompile Include="FcAbilitySoul.cpp" />
+    <ClCompile Include="FcAbilityWater.cpp" />
+    <ClCompile Include="FcAbilityWind.cpp" />
+    <ClCompile Include="FcAchievement.cpp" />
+    <ClCompile Include="FcAdjutant99King.cpp" />
+    <ClCompile Include="FcAdjutantDarkElf.cpp" />
+    <ClCompile Include="FcAdjutantDwykfarrio.cpp" />
+    <ClCompile Include="FcAdjutantGoblinWizard.cpp" />
+    <ClCompile Include="FcAdjutantKingFrog.cpp" />
+    <ClCompile Include="FcAdjutantMylarrvaryss.cpp" />
+    <ClCompile Include="FcAdjutantObject.cpp" />
+    <ClCompile Include="FcAdjutantSyumerrt.cpp" />
+    <ClCompile Include="FcAdjutantTeaTea.cpp" />
+    <ClCompile Include="FcAdjutantYesperratt.cpp" />
+    <ClCompile Include="FcAIElement.cpp" />
+    <ClCompile Include="FcAIFunc.cpp" />
+    <ClCompile Include="FcAIGlobalParam.cpp" />
+    <ClCompile Include="FcAIGlobalVariableMng.cpp" />
+    <ClCompile Include="FcAIHardCodingFunction.cpp" />
+    <ClCompile Include="FcAIHardCodingFunctionAdditional.cpp" />
+    <ClCompile Include="FcAIObject.cpp" />
+    <ClCompile Include="FcAISearch.cpp" />
+    <ClCompile Include="FcAISearchGameObject.cpp" />
+    <ClCompile Include="FcAISearchProp.cpp" />
+    <ClCompile Include="FcAISearchSlot.cpp" />
+    <ClCompile Include="FcAITriggerAction.cpp" />
+    <ClCompile Include="FcAITriggerActionProp.cpp" />
+    <ClCompile Include="FcAITriggerActionTroop.cpp" />
+    <ClCompile Include="FcAITriggerBase.cpp" />
+    <ClCompile Include="FcAITriggerCon.cpp" />
+    <ClCompile Include="FcAITriggerConProp.cpp" />
+    <ClCompile Include="FcAITriggerConTroop.cpp" />
+    <ClCompile Include="FcAITriggerFactory.cpp" />
+    <ClCompile Include="FcAniObject.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LTCG|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LTCG|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RDebug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RDebug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RETAIL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RETAIL|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_i|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_i|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="FcArcherUnitObject.cpp" />
+    <ClCompile Include="FcBaseObject.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LTCG|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LTCG|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RDebug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RDebug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RETAIL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RETAIL|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_i|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_i|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="FcCameraObject.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LTCG|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LTCG|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RDebug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RDebug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RETAIL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RETAIL|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_i|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_i|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="FcCatapultObject.cpp" />
+    <ClCompile Include="FcCatapultSeqEvent.cpp" />
+    <ClCompile Include="FcConsole.cpp" />
+    <ClCompile Include="FcCorrelation.cpp" />
+    <ClCompile Include="FcDropWeapon.cpp" />
+    <ClCompile Include="FcEffectLight.cpp" />
+    <ClCompile Include="FcEventSequencer.cpp" />
+    <ClCompile Include="FcFlyUnitObject.cpp" />
+    <ClCompile Include="FcFxBurning.cpp" />
+    <ClCompile Include="FcFXColumnOfWater.cpp" />
+    <ClCompile Include="FcFxDropOfWater.cpp" />
+    <ClCompile Include="FcFxGenerater.cpp" />
+    <ClCompile Include="FcFxParticleGenerater.cpp" />
+    <ClCompile Include="FcFxRain.cpp" />
+    <ClCompile Include="FcFxShotSkin.cpp" />
+    <ClCompile Include="FcFxSpoutsOfWater.cpp" />
+    <ClCompile Include="FcGameObject.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LTCG|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LTCG|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RDebug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RDebug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RETAIL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RETAIL|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_i|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_i|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="FcGlobal.cpp" />
+    <ClCompile Include="FcGuardianManager.cpp" />
+    <ClCompile Include="FcHeroObject.cpp" />
+    <ClCompile Include="FcHeroSeqEvent.cpp" />
+    <ClCompile Include="FcHitMarkMgr.cpp" />
+    <ClCompile Include="FcHorseObject.cpp" />
+    <ClCompile Include="FcItem.cpp" />
+    <ClCompile Include="FcLiveManager.cpp" />
+    <ClCompile Include="FcMoveTowerObject.cpp" />
+    <ClCompile Include="FcMoveTowerSeqEvent.cpp" />
+    <ClCompile Include="FcParamVariable.cpp" />
+    <ClCompile Include="FcPhysicsLoader.cpp" />
+    <ClCompile Include="FcProjectile.cpp" />
+    <ClCompile Include="FcProjectileArrow.cpp" />
+    <ClCompile Include="FcProjectileBlackHall.cpp" />
+    <ClCompile Include="FcProjectileDirectArrow.cpp" />
+    <ClCompile Include="FcProjectileMagicFx.cpp" />
+    <ClCompile Include="FcProjectilePhysicsThrow.cpp" />
+    <ClCompile Include="FcProjectileRoots.cpp" />
+    <ClCompile Include="FcProjectileStone.cpp" />
+    <ClCompile Include="FcProjectileThrowStone.cpp" />
+    <ClCompile Include="FcProjectileTimeBomb.cpp" />
+    <ClCompile Include="FcProjectileWaterBomb.cpp" />
+    <ClCompile Include="FcProp.cpp" />
+    <ClCompile Include="FcPropManager.cpp" />
+    <ClCompile Include="FcRealtimeMovie.cpp" />
+    <ClCompile Include="FcSOXFile.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LTCG|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LTCG|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RDebug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RDebug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RETAIL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RETAIL|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_i|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_i|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="FcSOXLoader.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LTCG|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LTCG|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RDebug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RDebug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RETAIL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RETAIL|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_i|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_i|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="FcState.cpp" />
+    <ClCompile Include="FcStatusObject.cpp" />
+    <ClCompile Include="FcTroopAIObject.cpp" />
+    <ClCompile Include="FcTroopManager.cpp" />
+    <ClCompile Include="FcTroopManagerCaculateFakeMode.cpp" />
+    <ClCompile Include="FcTroopObject.cpp" />
+    <ClCompile Include="FcUnit9SObject.cpp" />
+    <ClCompile Include="FcUnitJobChange.cpp" />
+    <ClCompile Include="FcUnitObject.cpp" />
+    <ClCompile Include="FcUtil.cpp" />
+    <ClCompile Include="FcVelocityCtrl.cpp" />
+    <ClCompile Include="FcWorld.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LTCG|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LTCG|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RDebug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RDebug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RETAIL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RETAIL|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_i|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_i|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="GenericCamEditor.cpp" />
+    <ClCompile Include="GenericCamera.cpp" />
+    <ClCompile Include="GenericCameraAttach.cpp" />
+    <ClCompile Include="GenericCameraEditorUI.cpp" />
+    <ClCompile Include="GlareDefD3D.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Inphy.cpp" />
+    <ClCompile Include="Input.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LTCG|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LTCG|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RDebug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RDebug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RETAIL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RETAIL|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_i|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_i|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="InputPad.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='LTCG|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='LTCG|x64'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LTCG|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LTCG|x64'">Use</PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RDebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RDebug|x64'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RDebug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RDebug|x64'">Use</PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|x64'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|x64'">Use</PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RETAIL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RETAIL|x64'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RETAIL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RETAIL|x64'">Use</PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|x64'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|x64'">Use</PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_i|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_i|x64'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_i|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_i|x64'">Use</PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="InputPCPad.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LTCG|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LTCG|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RDebug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RDebug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RETAIL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RETAIL|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_i|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_i|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Interface\FcAbility.cpp" />
+    <ClCompile Include="Interface\FcGauge.cpp" />
+    <ClCompile Include="Interface\FcInterfaceDataDefine.cpp" />
+    <ClCompile Include="Interface\FcInterfaceManager.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='LTCG|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='LTCG|x64'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='RDebug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='RDebug|x64'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|x64'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='RETAIL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='RETAIL|x64'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|x64'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release_i|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release_i|x64'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Interface\FcInterfaceMisc.cpp" />
+    <ClCompile Include="Interface\FcInterfaceObj.cpp" />
+    <ClCompile Include="Interface\FcLetterBox.cpp" />
+    <ClCompile Include="Interface\FcMinimap.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='LTCG|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='LTCG|x64'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='RDebug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='RDebug|x64'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|x64'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='RETAIL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='RETAIL|x64'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|x64'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release_i|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release_i|x64'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Interface\FcMiniMapRTT.cpp" />
+    <ClCompile Include="Interface\FcSpeech.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='LTCG|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='LTCG|x64'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='RDebug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='RDebug|x64'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|x64'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='RETAIL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='RETAIL|x64'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|x64'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release_i|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release_i|x64'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Klarrann.cpp" />
+    <ClCompile Include="Menu\FcDebugMenu.cpp" />
+    <ClCompile Include="Menu\FcMenu3DObject.cpp" />
+    <ClCompile Include="Menu\FcMenuAbility.cpp" />
+    <ClCompile Include="Menu\FcMenuArtWork.cpp" />
+    <ClCompile Include="Menu\FcMenuCharStock.cpp" />
+    <ClCompile Include="Menu\FcMenuControl.cpp" />
+    <ClCompile Include="Menu\FcMenuForm.cpp" />
+    <ClCompile Include="Menu\FcMenuGameResult.cpp" />
+    <ClCompile Include="Menu\FcMenuGuardian.cpp" />
+    <ClCompile Include="Menu\FcMenuLibrary.cpp" />
+    <ClCompile Include="Menu\FcMenuLibraryManager.cpp" />
+    <ClCompile Include="Menu\FcMenuLoadData.cpp" />
+    <ClCompile Include="Menu\FcMenuLogo.cpp" />
+    <ClCompile Include="Menu\FcMenuMainOpening.cpp" />
+    <ClCompile Include="Menu\FcMenuManager.cpp" />
+    <ClCompile Include="Menu\FcMenuMessageBox.cpp" />
+    <ClCompile Include="Menu\FcMenuMissionObj.cpp" />
+    <ClCompile Include="Menu\FcMenuMissionStock.cpp" />
+    <ClCompile Include="Menu\FcMenuOption.cpp" />
+    <ClCompile Include="Menu\FcMenuPause.cpp" />
+    <ClCompile Include="Menu\FcMenuSaveData.cpp" />
+    <ClCompile Include="Menu\FcMenuSelectChar.cpp" />
+    <ClCompile Include="Menu\FcMenuSelectStage.cpp" />
+    <ClCompile Include="Menu\FcMenuStageResult.cpp" />
+    <ClCompile Include="Menu\FcMenuStatus.cpp" />
+    <ClCompile Include="Menu\FcMenuTitle.cpp" />
+    <ClCompile Include="Menu\FcMenuUsual.cpp" />
+    <ClCompile Include="Menu\FcMenuWorldMap.cpp" />
+    <ClCompile Include="Menu\FcMessageDef.cpp" />
+    <ClCompile Include="Myifee.cpp" />
+    <ClCompile Include="N3_orb.cpp" />
+    <ClCompile Include="ShortPathFinder.cpp" />
+    <ClCompile Include="skip.cpp" />
+    <ClCompile Include="SpiritObject_temp.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LTCG|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LTCG|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RDebug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RDebug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RETAIL|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RETAIL|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_i|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_i|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Trigger\BSTrigger.cpp" />
+    <ClCompile Include="Trigger\BSTriggerAction.cpp" />
+    <ClCompile Include="Trigger\BSTriggerCondition.cpp" />
+    <ClCompile Include="Trigger\BSTriggerDefaultData.cpp" />
+    <ClCompile Include="Trigger\BSTriggerEvent.cpp" />
+    <ClCompile Include="Trigger\BSTriggerManager.cpp" />
+    <ClCompile Include="Trigger\BSTriggerVariable.cpp" />
+    <ClCompile Include="Trigger\FcTriggerAction.cpp" />
+    <ClCompile Include="Trigger\FcTriggerActionTemp.cpp" />
+    <ClCompile Include="Trigger\FcTriggerCommander.cpp" />
+    <ClCompile Include="Trigger\FcTriggerCondition.cpp" />
+    <ClCompile Include="Tyurru.cpp" />
+    <ClCompile Include="Util\CWavebankStream.cpp" />
+    <ClCompile Include="Util\DebugUtil.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LTCG|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LTCG|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RDebug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RDebug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RETAIL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RETAIL|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_i|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_i|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Util\FcEventCamera.cpp" />
+    <ClCompile Include="Util\FcGetCaptionUTF16.cpp" />
+    <ClCompile Include="Util\FcSoundManager.cpp" />
+    <ClCompile Include="Util\FcWaveStream.cpp" />
+    <ClCompile Include="Util\LocalLanguage.cpp" />
+    <ClCompile Include="Util\navigationcell.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LTCG|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LTCG|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RDebug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RDebug|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RETAIL|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RETAIL|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_i|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_i|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Util\navigationmesh.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LTCG|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LTCG|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RDebug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RDebug|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RETAIL|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RETAIL|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_i|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_i|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Util\Parser.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LTCG|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LTCG|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RDebug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RDebug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RESLISTGEN|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RETAIL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RETAIL|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_FastCap|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_i|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_i|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Util\PerfCheck.cpp" />
+    <ClCompile Include="Util\TextTable.cpp" />
+    <ClCompile Include="Util\Token.cpp" />
+    <ClCompile Include="Util\TokenFile.cpp" />
+    <ClCompile Include="Util\toputil.cpp" />
+    <ClCompile Include="Util\tpGrammer.cpp" />
+    <ClCompile Include="Util\X3DSoundCalculate.cpp" />
+    <ClCompile Include="Util\XActSound.cpp" />
+    <ClCompile Include="Vigkvagk.cpp" />
+    <ClCompile Include="XMPBGMPlayer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ASData.h" />
+    <ClInclude Include="Aspharr.h" />
+    <ClInclude Include="BSFileManager.h" />
+    <ClInclude Include="BsUi\BSuiDefine.h" />
+    <ClInclude Include="BSui\Control\BSuiButton.h" />
+    <ClInclude Include="BsUi\Control\BsUiImageCtrl.h" />
+    <ClInclude Include="BSui\Control\BSuiLayer.h" />
+    <ClInclude Include="BSui\Control\BSuiListBox.h" />
+    <ClInclude Include="BsUi\Control\BsUiListCtrl.h" />
+    <ClInclude Include="BSui\Control\BSuiSlider.h" />
+    <ClInclude Include="BSui\Control\BSuiText.h" />
+    <ClInclude Include="BsUi\Core\BSui.h" />
+    <ClInclude Include="BsUi\Core\BSuiException.h" />
+    <ClInclude Include="BsUi\Core\BSuiLoader.h" />
+    <ClInclude Include="BsUi\Core\BSuiSkin.h" />
+    <ClInclude Include="BsUi\Core\BsUiStore.h" />
+    <ClInclude Include="BsUi\Core\BSuiSystem.h" />
+    <ClInclude Include="BsUi\Core\BsUiView.h" />
+    <ClInclude Include="BsUi\Core\BSuiWindow.h" />
+    <ClInclude Include="BsUi\Custom\BSuiClassIDManager.h" />
+    <ClInclude Include="BsUi\Custom\BsUiFont.h" />
+    <ClInclude Include="BsUi\Custom\BsUiFontAttrManager.h" />
+    <ClInclude Include="BsUi\Custom\BSuiGDISkin.h" />
+    <ClInclude Include="BsUi\Custom\BsUiGDIView.h" />
+    <ClInclude Include="BsUi\Custom\BsUiImageManager.h" />
+    <ClInclude Include="BsUi\Custom\BsUiUVManager.h" />
+    <ClInclude Include="CDefinition.h" />
+    <ClInclude Include="CollisionMesh.h" />
+    <ClInclude Include="Data\AIDef.h" />
+    <ClInclude Include="Data\AnimType.h" />
+    <ClInclude Include="Data\ATParamType.h" />
+    <ClInclude Include="Data\Camera\GenericCamDef.h" />
+    <ClInclude Include="Data\FcTerrainAttrDefinitions.h" />
+    <ClInclude Include="Data\ItemDefinitions.h" />
+    <ClInclude Include="Data\Menu\BsUiControlID.h" />
+    <ClInclude Include="Data\Menu\BsUiUVID.h" />
+    <ClInclude Include="Data\Sound\FcSoundPlayDefinitions.h" />
+    <ClInclude Include="Data\Sound\FcWaveSoundBankDef.h" />
+    <ClInclude Include="Data\TroopAIDef.h" />
+    <ClInclude Include="Dwingvatt.h" />
+    <ClInclude Include="DX_Util\AtgSignIn.h" />
+    <ClInclude Include="Effect\FcFxBase.h" />
+    <ClInclude Include="Effect\FcFXCastEarth.h" />
+    <ClInclude Include="Effect\FcFXCommon.h" />
+    <ClInclude Include="Effect\FcFXDynamicFog.h" />
+    <ClInclude Include="Effect\FcFXEarthExplode.h" />
+    <ClInclude Include="Effect\FcFXLensFlare.h" />
+    <ClInclude Include="Effect\FcFXLightScattering.h" />
+    <ClInclude Include="Effect\FcFXLine.h" />
+    <ClInclude Include="Effect\FcFXManager.h" />
+    <ClInclude Include="Effect\FcFXMeteo.h" />
+    <ClInclude Include="Effect\FcFXScreenMotionBlur.h" />
+    <ClInclude Include="Effect\FcFXScreenWaterDrop.h" />
+    <ClInclude Include="Effect\FcFXSimplePlay.h" />
+    <ClInclude Include="Effect\FcFXSimpleTrail.h" />
+    <ClInclude Include="Effect\FcFXTidalWave.h" />
+    <ClInclude Include="Effect\FcFXWindExplode.h" />
+    <ClInclude Include="FantasyCore.h" />
+    <ClInclude Include="FcAbility1kArrow.h" />
+    <ClInclude Include="FcAbilityBase.h" />
+    <ClInclude Include="FcAbilityColumnOfWater.h" />
+    <ClInclude Include="FcAbilityEarth.h" />
+    <ClInclude Include="FcAbilityFire.h" />
+    <ClInclude Include="FcAbilityLight.h" />
+    <ClInclude Include="FcAbilityManager.h" />
+    <ClInclude Include="FcAbilityRedLight.h" />
+    <ClInclude Include="FcAbilitySoul.h" />
+    <ClInclude Include="FcAbilityWater.h" />
+    <ClInclude Include="FcAbilityWind.h" />
+    <ClInclude Include="FcAchievement.h" />
+    <ClInclude Include="FcAdjutant99King.h" />
+    <ClInclude Include="FcAdjutantDarkElf.h" />
+    <ClInclude Include="FcAdjutantDwykfarrio.h" />
+    <ClInclude Include="FcAdjutantGoblinWizard.h" />
+    <ClInclude Include="FcAdjutantKingFrog.h" />
+    <ClInclude Include="FcAdjutantMylarrvaryss.h" />
+    <ClInclude Include="FcAdjutantObject.h" />
+    <ClInclude Include="FcAdjutantSyumerrt.h" />
+    <ClInclude Include="FcAdjutantTeaTea.h" />
+    <ClInclude Include="FcAdjutantYesperratt.h" />
+    <ClInclude Include="FcAIElement.h" />
+    <ClInclude Include="FcAIFunc.h" />
+    <ClInclude Include="FcAIGlobalParam.h" />
+    <ClInclude Include="FcAIGlobalVariableMng.h" />
+    <ClInclude Include="FcAIHardCodingFunction.h" />
+    <ClInclude Include="FcAIHardCodingFunctionAdditional.h" />
+    <ClInclude Include="FcAIObject.h" />
+    <ClInclude Include="FcAISearch.h" />
+    <ClInclude Include="FcAISearchGameObject.h" />
+    <ClInclude Include="FcAISearchProp.h" />
+    <ClInclude Include="FcAISearchSlot.h" />
+    <ClInclude Include="FcAITriggerAction.h" />
+    <ClInclude Include="FcAITriggerActionProp.h" />
+    <ClInclude Include="FcAITriggerActionTroop.h" />
+    <ClInclude Include="FcAITriggerBase.h" />
+    <ClInclude Include="FcAITriggerCon.h" />
+    <ClInclude Include="FcAITriggerConProp.h" />
+    <ClInclude Include="FcAITriggerConTroop.h" />
+    <ClInclude Include="FcAITriggerFactory.h" />
+    <ClInclude Include="FcAniObject.h" />
+    <ClInclude Include="FcArcherUnitObject.h" />
+    <ClInclude Include="FcBaseObject.h" />
+    <ClInclude Include="FcCameraObject.h" />
+    <ClInclude Include="FcCatapultObject.h" />
+    <ClInclude Include="FcCatapultSeqEvent.h" />
+    <ClInclude Include="FcCommon.h" />
+    <ClInclude Include="FcConsole.h" />
+    <ClInclude Include="FcCorrelation.h" />
+    <ClInclude Include="FcDefines.h" />
+    <ClInclude Include="FcDropWeapon.h" />
+    <ClInclude Include="FcEffectLight.h" />
+    <ClInclude Include="FcEventSequencer.h" />
+    <ClInclude Include="FcFlyUnitObject.h" />
+    <ClInclude Include="FcFxBurning.h" />
+    <ClInclude Include="FcFXColumnOfWater.h" />
+    <ClInclude Include="FcFxDropOfWater.h" />
+    <ClInclude Include="FcFxGenerater.h" />
+    <ClInclude Include="FcFxParticleGenerater.h" />
+    <ClInclude Include="FcFxRain.h" />
+    <ClInclude Include="FcFxShotSkin.h" />
+    <ClInclude Include="FcFxSpoutsOfWater.h" />
+    <ClInclude Include="FcGameObject.h" />
+    <ClInclude Include="FcGlobal.h" />
+    <ClInclude Include="FcGuardianManager.h" />
+    <ClInclude Include="FcHeroObject.h" />
+    <ClInclude Include="FcHeroSeqEvent.h" />
+    <ClInclude Include="FcHitMarkMgr.h" />
+    <ClInclude Include="FcHorseObject.h" />
+    <ClInclude Include="FcItem.h" />
+    <ClInclude Include="FcLiveManager.h" />
+    <ClInclude Include="FcMoveTowerObject.h" />
+    <ClInclude Include="FcMoveTowerSeqEvent.h" />
+    <ClInclude Include="FcParamVariable.h" />
+    <ClInclude Include="FcPhysicsLoader.h" />
+    <ClInclude Include="FcProjectile.h" />
+    <ClInclude Include="FcProjectileArrow.h" />
+    <ClInclude Include="FcProjectileBlackhall.h" />
+    <ClInclude Include="FcProjectileDirectArrow.h" />
+    <ClInclude Include="FcProjectileMagicFx.h" />
+    <ClInclude Include="FcProjectilePhysicsThrow.h" />
+    <ClInclude Include="FcProjectileRoots.h" />
+    <ClInclude Include="FcProjectileStone.h" />
+    <ClInclude Include="FcProjectileThrowStone.h" />
+    <ClInclude Include="FcProjectileTimeBomb.h" />
+    <ClInclude Include="FcProjectileWaterBomb.h" />
+    <ClInclude Include="FcProp.h" />
+    <ClInclude Include="FcPropManager.h" />
+    <ClInclude Include="FcRealtimeMovie.h" />
+    <ClInclude Include="FcSOXFile.h" />
+    <ClInclude Include="FcSOXLoader.h" />
+    <ClInclude Include="FcState.h" />
+    <ClInclude Include="FcStatusObject.h" />
+    <ClInclude Include="FcTroopAIObject.h" />
+    <ClInclude Include="FcTroopAITrigger.h" />
+    <ClInclude Include="FcTroopManager.h" />
+    <ClInclude Include="FcTroopObject.h" />
+    <ClInclude Include="FcUnit9SObject.h" />
+    <ClInclude Include="FcUnitJobChange.h" />
+    <ClInclude Include="FcUnitObject.h" />
+    <ClInclude Include="FcUtil.h" />
+    <ClInclude Include="FcVelocityCtrl.h" />
+    <ClInclude Include="FcWorld.h" />
+    <ClInclude Include="GenericCamEditor.h" />
+    <ClInclude Include="GenericCamera.h" />
+    <ClInclude Include="GenericCameraAttach.h" />
+    <ClInclude Include="GlareDefD3D.h" />
+    <ClInclude Include="Inphy.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="InputPad.h" />
+    <ClInclude Include="Interface\FcAbility.h" />
+    <ClInclude Include="Interface\FcGauge.h" />
+    <ClInclude Include="Interface\FcInterfaceDataDefine.h" />
+    <ClInclude Include="Interface\FcInterfaceManager.h" />
+    <ClInclude Include="Interface\FcInterfaceMisc.h" />
+    <ClInclude Include="Interface\FcInterfaceObj.h" />
+    <ClInclude Include="Interface\FcLetterBox.h" />
+    <ClInclude Include="Interface\FcMinimap.h" />
+    <ClInclude Include="Interface\FcMiniMapRTT.h" />
+    <ClInclude Include="Interface\FcSpeech.h" />
+    <ClInclude Include="Klarrann.h" />
+    <ClInclude Include="Menu\FcDebugMenu.h" />
+    <ClInclude Include="Menu\FcMenu3DObject.h" />
+    <ClInclude Include="Menu\FcMenuAbility.h" />
+    <ClInclude Include="Menu\FcMenuArtWork.h" />
+    <ClInclude Include="Menu\FcMenuCharStock.h" />
+    <ClInclude Include="Menu\FcMenuControl.h" />
+    <ClInclude Include="Menu\FcMenuDef.h" />
+    <ClInclude Include="Menu\FcMenuForm.h" />
+    <ClInclude Include="Menu\FcMenuGameResult.h" />
+    <ClInclude Include="Menu\FcMenuGuardian.h" />
+    <ClInclude Include="Menu\FcMenuLibrary.h" />
+    <ClInclude Include="Menu\FcMenuLibraryManager.h" />
+    <ClInclude Include="Menu\FcMenuLoadData.h" />
+    <ClInclude Include="Menu\FcMenuLogo.h" />
+    <ClInclude Include="Menu\FcMenuMainOpening.h" />
+    <ClInclude Include="Menu\FcMenuManager.h" />
+    <ClInclude Include="Menu\FcMenuMessageBox.h" />
+    <ClInclude Include="Menu\FcMenuMissionObj.h" />
+    <ClInclude Include="Menu\FcMenuMissionStock.h" />
+    <ClInclude Include="Menu\FcMenuOption.h" />
+    <ClInclude Include="Menu\FcMenuPause.h" />
+    <ClInclude Include="Menu\FcMenuSaveData.h" />
+    <ClInclude Include="Menu\FcMenuSelectChar.h" />
+    <ClInclude Include="Menu\FcMenuSelectStage.h" />
+    <ClInclude Include="Menu\FcMenuStageResult.h" />
+    <ClInclude Include="Menu\FcMenuStatus.h" />
+    <ClInclude Include="Menu\FcMenuTitle.h" />
+    <ClInclude Include="Menu\FcMenuUsual.h" />
+    <ClInclude Include="Menu\FcMenuWorldMap.h" />
+    <ClInclude Include="Menu\FcMessageDef.h" />
+    <ClInclude Include="Myifee.h" />
+    <ClInclude Include="n3_orb.h" />
+    <ClInclude Include="RangeScan.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ShortPathFinder.h" />
+    <ClInclude Include="skip.h" />
+    <ClInclude Include="SmartPtr.h" />
+    <ClInclude Include="SpiritObject_temp.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Trigger\BSTrigger.h" />
+    <ClInclude Include="Trigger\BSTriggerAction.h" />
+    <ClInclude Include="Trigger\BSTriggerCodeDefine.h" />
+    <ClInclude Include="Trigger\BSTriggerCondition.h" />
+    <ClInclude Include="Trigger\BSTriggerDefaultData.h" />
+    <ClInclude Include="Trigger\BSTriggerEvent.h" />
+    <ClInclude Include="Trigger\BSTriggerManager.h" />
+    <ClInclude Include="Trigger\BSTriggerStrDefinition.h" />
+    <ClInclude Include="Trigger\BSTriggerVariable.h" />
+    <ClInclude Include="Trigger\FcTriggerAction.h" />
+    <ClInclude Include="Trigger\FcTriggerCommander.h" />
+    <ClInclude Include="Trigger\FcTriggerCondition.h" />
+    <ClInclude Include="Trigger\FcTriggerGlobalVar.h" />
+    <ClInclude Include="Tyurru.h" />
+    <ClInclude Include="Util\assocarray.h" />
+    <ClInclude Include="Util\CWavebankStream.h" />
+    <ClInclude Include="Util\DebugUtil.h" />
+    <ClInclude Include="Util\FcEventCamera.h" />
+    <ClInclude Include="Util\FcGetCaptionUTF16.h" />
+    <ClInclude Include="Util\FcSoundManager.h" />
+    <ClInclude Include="Util\FcWaveStream.h" />
+    <ClInclude Include="Util\hash3.h" />
+    <ClInclude Include="Util\line2d.h" />
+    <ClInclude Include="Util\LocalLanguage.h" />
+    <ClInclude Include="Util\navigationcell.h" />
+    <ClInclude Include="Util\navigationheap.h" />
+    <ClInclude Include="Util\navigationmesh.h" />
+    <ClInclude Include="Util\navigationpath.h" />
+    <ClInclude Include="Util\navigationwaypoint.h" />
+    <ClInclude Include="Util\Parser.h" />
+    <ClInclude Include="Util\PerfCheck.h" />
+    <ClInclude Include="Util\plane.h" />
+    <ClInclude Include="Util\SharedResource.h" />
+    <ClInclude Include="Util\Synchronized.h" />
+    <ClInclude Include="Util\TextTable.h" />
+    <ClInclude Include="Util\Token.h" />
+    <ClInclude Include="Util\TokenFile.h" />
+    <ClInclude Include="Util\toputil.h" />
+    <ClInclude Include="Util\tpGrammer.h" />
+    <ClInclude Include="Util\X3dAudioVolumeTable.h" />
+    <ClInclude Include="Util\X3DSoundCalculate.h" />
+    <ClInclude Include="Util\XActSound.h" />
+    <ClInclude Include="Util\XMPBGMPlayer.h" />
+    <ClInclude Include="Vigkvagk.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="FantasyCore.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FantasyCore.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Data\AnimID.txt" />
+    <Text Include="Data\ParticleList.txt" />
+    <Text Include="Data\PartsTable.txt" />
+    <Text Include="Data\SignalID.txt" />
+    <Text Include="Data\Sound\FcWaveBankList.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="N3GameConfig.xlast" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="xex.xml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\packages\Microsoft.DXSDK.D3DX.9.29.952.8\build\native\Microsoft.DXSDK.D3DX.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Microsoft.DXSDK.D3DX.9.29.952.8\build\native\Microsoft.DXSDK.D3DX.targets'))" />
+  </Target>
+</Project>

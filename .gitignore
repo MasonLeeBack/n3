@@ -1,0 +1,5 @@
+unstaged_assets/
+staged/
+no_push/
+BUILD/
+.vs/

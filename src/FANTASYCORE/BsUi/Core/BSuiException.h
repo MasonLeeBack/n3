@@ -1,0 +1,25 @@
+#ifndef _BsUi_EXCEPTION_H_
+#define _BsUi_EXCEPTION_H_
+
+#include <string>
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+
+using namespace std;
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+
+class BsUiException {
+public:
+	string		m_message;
+
+public:
+	BsUiException() { };
+	BsUiException(const char* pMsg) { m_message = pMsg; }
+
+	virtual ~BsUiException() { };
+};
+
+#endif
